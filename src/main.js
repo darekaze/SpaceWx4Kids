@@ -4,6 +4,7 @@ import router from './router';
 import store from './store';
 import { i18n, Trans } from './plugins/i18n';
 import './plugins/vuetify';
+import './stylus/main.styl';
 import './registerServiceWorker';
 
 Vue.prototype.$i18nRoute = Trans.i18nRoute.bind(Trans);

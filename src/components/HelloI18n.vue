@@ -1,14 +1,14 @@
 <template>
 <div>
   <p>{{ $t('hello') }}</p>
-  <p>{{ $t('message') }}</p>
+  <p class="headline">{{ $t('message') }}</p>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloI18n'
-}
+  name: 'HelloI18n',
+};
 </script>
 
 <i18n>

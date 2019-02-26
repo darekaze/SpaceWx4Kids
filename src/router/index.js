@@ -6,6 +6,7 @@ Vue.use(Router);
 
 export default new Router({
   routes,
+  // mode: 'history', // HACK
   base: __dirname,
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve) => {
