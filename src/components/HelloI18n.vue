@@ -1,5 +1,8 @@
 <template>
+<div>
   <p>{{ $t('hello') }}</p>
+  <p>{{ $t('message') }}</p>
+</div>
 </template>
 
 <script>
@@ -12,6 +15,9 @@ export default {
 {
   "en": {
     "hello": "Hello i18n in SFC!"
+  },
+  "zh": {
+    "hello": "NiHao i18n in SFC!"
   }
 }
 </i18n>
