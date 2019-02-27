@@ -14,12 +14,32 @@ export default [
     children: [
       {
         path: '',
-        name: 'Home',
+        name: 'home',
         component: Home,
       },
       {
-        path: 'about',
-        name: 'about',
+        path: 'phenomena',
+        name: 'phenomena',
+        component: load('About'),
+      },
+      {
+        path: 'impacts',
+        name: 'impacts',
+        component: load('About'),
+      },
+      {
+        path: 'historical-events',
+        name: 'historical-events',
+        component: load('About'),
+      },
+      {
+        path: 'alerts',
+        name: 'alerts',
+        component: load('About'),
+      },
+      {
+        path: 'games',
+        name: 'games',
         component: load('About'),
       },
       {

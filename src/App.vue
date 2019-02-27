@@ -12,7 +12,7 @@
 export default {
   name: 'App',
   components: {
-    MHeader: () => import('@/components/MHeader.vue'),
+    MHeader: () => import('@/components/Core/MHeader.vue'),
   },
   methods: {
     changeLocale() {
