@@ -1,8 +1,10 @@
 <template>
-<div>
-  <p>{{ $t('hello') }}</p>
-  <p class="headline">{{ $t('message') }}</p>
-</div>
+<v-container>
+  <v-card>
+    <p>{{ $t('hello') }}</p>
+    <p class="headline">{{ $t('message') }}</p>
+  </v-card>
+</v-container>
 </template>
 
 <script>

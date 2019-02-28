@@ -1,18 +1,19 @@
 <template>
   <div>
-    <HelloI18n/>
-    <HelloWorld />
+    <space-bg>
+      <HelloI18n/>
+    </space-bg>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue';
 import HelloI18n from '@/components/HelloI18n.vue';
+import SpaceBg from '@/components/Background.vue';
 
 export default {
   components: {
-    HelloWorld,
     HelloI18n,
+    SpaceBg,
   },
 };
 </script>
