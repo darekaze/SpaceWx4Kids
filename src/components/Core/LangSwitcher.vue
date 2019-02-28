@@ -1,47 +1,54 @@
 <template>
-  <select
-    class="LanguageSwitcher"
-    name="language"
-    @change="changeLanguage">
-    <option
-      v-for="lang in supportedLanguages"
-      :key="lang"
-      :selected="isCurrentLanguage(lang)"
-      :class="{ 'is-selected': isCurrentLanguage(lang) }"
-      :value="lang">
-      {{ lang }}
-    </option>
-  </select>
+  <v-btn
+    outline
+    color="indigo"
+    class="p-relative text-capitalize"
+    @click="changeLanguage()">
+    {{ $t('switchLang') }}
+    <v-img contain
+      alt="Sunny Logo"
+      :src="require(`@/assets/${$t('logo')}.svg`)"
+      transition="scale-transition"
+      width="30px" height="36px"
+      class="p-abs"/>
+  </v-btn>
 </template>
+
 <script>
 import { Trans } from '@/plugins/i18n';
 
 export default {
-  computed: {
-    supportedLanguages() {
-      return Trans.supportedLanguages;
-    },
-    currentLanguage() {
-      return Trans.currentLanguage;
-    },
-  },
   methods: {
-    changeLanguage(e) {
-      const lang = e.target.value;
+    changeLanguage() {
+      const lang = Trans.currentLanguage === 'en' ? 'zh' : 'en'; // HACK
       const to = this.$router.resolve({ params: { lang } });
       return Trans.changeLanguage(lang).then(() => {
         this.$router.push(to.location);
       });
     },
-    isCurrentLanguage(lang) {
-      return lang === this.currentLanguage;
-    },
   },
 };
 </script>
 
-<style>
-.LanguageSwitcher {
-  margin-bottom: 1rem;
+<style lang="scss" scoped>
+.p-relative {
+  position: relative;
+  .p-abs {
+    top: -8px;
+    right: -6px;
+  }
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "switchLang": "中文",
+    "logo": "sunny"
+  },
+  "zh": {
+    "switchLang": "English",
+    "logo": "break"
+  }
+}
+</i18n>
