@@ -1,3 +1,10 @@
 // Change default font or add other variables here
 $body-font-family = 'Noto Sans TC', sans-serif
+$grid-breakpoints = {
+    xs: 0
+    sm: 600px
+    md: 960px
+    lg: (1280px - 16px) // Desktop gets a 16dp reduction
+    xl: (2160px - 16px) // https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints
+}
 @require '~vuetify/src/stylus/main'
