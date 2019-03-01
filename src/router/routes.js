@@ -35,7 +35,7 @@ export default [
       {
         path: 'alerts',
         name: 'alerts',
-        component: load('About'),
+        component: load('Alerts'),
       },
       {
         path: 'games',
