@@ -5,7 +5,7 @@
     class="p-relative text-capitalize"
     @click="changeLanguage()">
     {{ $t('switchLang') }}
-    <v-img contain
+    <v-img
       alt="Sunny Logo"
       :src="require(`@/assets/${$t('logo')}.svg`)"
       transition="scale-transition"

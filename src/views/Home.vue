@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <space-bg>
-      <HelloI18n/>
-    </space-bg>
-  </div>
+  <space-bg>
+    <HelloI18n/>
+  </space-bg>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <v-toolbar app height="60" :absolute="atHome">
-    <v-toolbar-title class="headline text-capitalize">
+    <v-toolbar-title class="headline text-capitalize c-ptr" @click.stop="goHome">
       <span>{{ $t('titleA') }}</span>
       <span class="font-weight-light">{{ $t('titleB') }}</span>
     </v-toolbar-title>
@@ -9,7 +9,8 @@
         alt="Dr.Tin Logo"
         :src="require('@/assets/tin.png')"
         transition="scale-transition"
-        height="60px" width="52px"/>
+        height="60px" width="52px"
+        class="hidden-xs-only"/>
     </router-link>
     <v-spacer/>
     <lang-switcher/>
@@ -32,8 +33,17 @@ export default {
       return /^\/\w+\/?$/.test(this.$route.path); // match locale route
     },
   },
+  methods: {
+    goHome() { this.$router.push(this.$i18nRoute({ name: 'home' })); },
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+.c-ptr {
+  cursor: pointer;
+}
+</style>
 
 <i18n>
 {

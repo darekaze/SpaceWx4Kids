@@ -4,6 +4,7 @@
     <v-content>
       <router-view/>
     </v-content>
+    <m-footer/>
   </v-app>
 </template>
 
@@ -13,6 +14,7 @@ export default {
   name: 'App',
   components: {
     MHeader: () => import('@/components/Core/MHeader.vue'),
+    MFooter: () => import('@/components/Core/MFooter.vue'),
   },
   methods: {
     changeLocale() {
