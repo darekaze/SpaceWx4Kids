@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .space-bg {
-  background-color: #021e7a;
+  background-color: #263238;
   background-image: url('../assets/images/space_background.jpg');
   background-repeat: repeat-y;
   background-size: 100vw auto;

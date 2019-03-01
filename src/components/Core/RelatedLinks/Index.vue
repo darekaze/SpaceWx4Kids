@@ -1,15 +1,15 @@
 <template>
-  <v-menu
+  <v-menu light
     v-model="menu"
     :close-on-content-click="false"
     :nudge-width="200"
-    offset-y>
+    :nudge-top="6"
+    top offset-y>
     <template v-slot:activator="{ on }">
-      <v-btn
-        light flat large
+      <v-btn flat large
         class="text-capitalize px-3 mx-1"
         v-on="on">
-        {{ $t('links') }}
+        {{ $t('related-links') }}
       </v-btn>
     </template>
     <Links/>
@@ -30,10 +30,10 @@ export default {
 <i18n>
 {
   "en": {
-    "links": "Related Links"
+    "related-links": "Related Links"
   },
   "zh": {
-    "links": "相關鏈接"
+    "related-links": "相關鏈接"
   }
 }
 </i18n>
