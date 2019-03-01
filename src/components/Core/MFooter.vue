@@ -15,23 +15,29 @@
         :to="$i18nRoute({ name: 'games' })">
         {{ $t('games') }}
       </v-btn>
-      <!-- Related links pop over menu -->
-      <!-- Acknowledgement dialog -->
+      <RelatedLinks/>
+      <Acknowledgement/>
     </v-layout>
   </v-footer>
 </template>
 
+<script>
+export default {
+  name: 'main-footer',
+  components: {
+    RelatedLinks: () => import('@/components/Core/RelatedLinks/Index.vue'),
+    Acknowledgement: () => import('@/components/Core/Acknowledgement/Index.vue'),
+  },
+};
+</script>
+
 <i18n>
 {
   "en": {
-    "games": "Minigames",
-    "links": "Related Links",
-    "ack": "Acknowledgement"
+    "games": "Minigames"
   },
   "zh": {
-    "games": "小遊戲",
-    "links": "相關鏈接",
-    "ack": "鳴謝"
+    "games": "小遊戲"
   }
 }
 </i18n>
