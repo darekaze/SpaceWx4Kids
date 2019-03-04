@@ -6,11 +6,12 @@
           :src="require(`@/assets/images/${info.image}`)"
           :height="$vuetify.breakpoint.xsOnly ? 180 : 220">
           <v-layout fill-height align-end justify-end>
-            <indicator
-              :scale="condition.scale"
-              :msg="condition.message"
-              class="pb-2 pr-3 grey--text text--lighten-3 subheading ctx-click"
-              @click.stop="toogleDialog()"/>
+            <div @click.stop="toogleDialog()">
+              <indicator
+                :scale="condition.scale"
+                :msg="condition.message"
+                class="pb-2 pr-3 grey--text text--lighten-3 subheading ctx-click"/>
+            </div>
           </v-layout>
         </v-img>
       </v-flex>
@@ -37,10 +38,10 @@
                       <v-icon>{{ alertIcon }}</v-icon>
                     </v-btn>
                   </template>
-                  <span>Show Details</span>
+                  <span>{{ $t('show-details') }}</span>
                 </v-tooltip>
                 <v-spacer/>
-                <v-btn flat color="indigo">Learn More</v-btn>
+                <v-btn flat color="indigo">{{ $t('learn-more') }}</v-btn>
               </v-card-actions>
             </v-flex>
           </v-layout>
@@ -84,3 +85,16 @@ export default {
   user-select: none;
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "show-details": "Show Details",
+    "learn-more": "Learn More"
+  },
+  "zh": {
+    "show-details": "顯示細節",
+    "learn-more": "瞭解更多"
+  }
+}
+</i18n>

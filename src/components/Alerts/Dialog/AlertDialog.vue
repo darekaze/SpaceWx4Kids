@@ -37,7 +37,7 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn flat color="green darken-1" @click.stop="dialog = false">
-          Close
+          {{ $t('close') }}
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -76,3 +76,14 @@ export default {
   border-color: rgba(0,0,0,0.18) !important; // HACK: Workaround
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "close": "Close"
+  },
+  "zh": {
+    "close": "關閉"
+  }
+}
+</i18n>

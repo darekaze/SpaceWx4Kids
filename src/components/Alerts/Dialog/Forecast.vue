@@ -2,15 +2,15 @@
   <v-layout pt-2 row wrap>
     <v-flex xs12>
       <v-layout row align-center justify-space-between>
-        <div class="subheading font-weight-bold pl-1">
-          3-Day Forecast
+        <div class="title font-weight-bold pl-1">
+          {{ $t('three-day-forecast') }}
         </div>
         <v-btn
           flat
           color="green darken-1"
           class="mx-0 pr-2"
           @click.stop="toogleLegend()">
-          Legend<v-icon dark>keyboard_arrow_down</v-icon>
+          {{ $t('legend') }}<v-icon dark>keyboard_arrow_down</v-icon>
         </v-btn>
       </v-layout>
     </v-flex>
@@ -61,6 +61,7 @@ export default {
     Legends: () => import('@/components/Alerts/Dialog/Legend.vue'),
   },
   data: () => ({
+    // TODO: Locale
     msg: {
       MinorProb: 'R1-R2',
       MajorProb: 'R3-R5',
@@ -72,6 +73,7 @@ export default {
     ...mapGetters(['getForecast']),
     isG() { return this.code === 'G'; },
     formatDate() {
+      // TODO: Locale
       return (day) => {
         const date = new Date(day);
         const options = { month: 'short', day: 'numeric' };
@@ -100,3 +102,16 @@ export default {
 <style lang="scss" scoped>
 .rate { cursor: pointer; }
 </style>
+
+<i18n>
+{
+  "en": {
+    "three-day-forecast": "3-Day Forecast",
+    "legend": "Legend"
+  },
+  "zh": {
+    "three-day-forecast": "三日預報",
+    "legend": "顏色標簽"
+  }
+}
+</i18n>

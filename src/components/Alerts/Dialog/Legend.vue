@@ -38,6 +38,7 @@
 <script>
 import getColor from '@/helpers/indicatorColor';
 import scales from './legends.json';
+// TODO: Locale
 
 export default {
   props: { code: String },
