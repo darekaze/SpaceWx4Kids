@@ -1,0 +1,46 @@
+{
+  "aurora": {
+    "link": "aurora",
+    "image": "aurora.jpg"
+  },
+  "solar-wind": {
+    "link": "solarwind",
+    "image": "solarwind.jpg"
+  },
+  "sunspots": {
+    "link": "sunspots",
+    "image": "sunspots.png"
+  },
+  "coronal-holes": {
+    "link": "coronal-holes",
+    "image": "coronal_holes.jpg"
+  },
+  "cme": {
+    "link": "coronal-mass-ejections",
+    "image": "coronal_holes.jpg"
+  },
+  "magnetosphere": {
+    "link": "earth-magnetosphere",
+    "image": "magnetosphere.png"
+  },
+  "geomagnetic-storm": {
+    "link": "geomagnetic-storms",
+    "image": "geomagnetic_storm.jpg"
+  },
+  "ionosphere": {
+    "link": "ionosphere",
+    "image": "ionosphere.jpg"
+  },
+  "radiation-belt": {
+    "link": "radiation-belt",
+    "image": "radiation_belt.jpg"
+  },
+  "radio-blackouts": {
+    "link": "radio_blackouts",
+    "image": "radio_blackout.jpg"
+  },
+  "solar-radiation-storm": {
+    "link": "solar_radiation_storm",
+    "image": "solar_radiation_storm.jpg"
+  }
+}
