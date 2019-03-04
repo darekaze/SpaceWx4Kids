@@ -39,7 +39,7 @@ export default {
     "navigation-system": "Navigation System",
     "communication": "Communication",
     "aviation": "Aviation",
-    "human-space-exploration": "Human space exploration",
+    "human-space-exploration": "Human Space Exploration",
     "satellite": "Satellite"
   },
   "zh": {
