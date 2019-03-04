@@ -39,7 +39,7 @@ export default {
         icon: 'notifications_active',
       },
       {
-        name: 'Minigames',
+        name: 'games',
         icon: 'games',
       },
     ],
@@ -54,7 +54,7 @@ export default {
     "impacts": "Impacts",
     "historical-events": "Historical Events",
     "alerts": "Alerts",
-    "games": "Games"
+    "games": "Minigames"
   },
   "zh": {
     "phenomena": "現象",
