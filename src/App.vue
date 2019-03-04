@@ -2,7 +2,7 @@
   <v-app>
     <m-header/>
     <v-content>
-      <router-view/>
+      <space-bg><router-view/></space-bg>
     </v-content>
     <m-footer/>
   </v-app>
@@ -14,12 +14,8 @@ export default {
   name: 'App',
   components: {
     MHeader: () => import('@/components/Core/MHeader.vue'),
+    SpaceBg: () => import('@/components/Background.vue'),
     MFooter: () => import('@/components/Core/MFooter.vue'),
-  },
-  methods: {
-    changeLocale() {
-      this.$i18n.locale = 'zh';
-    },
   },
 };
 </script>
