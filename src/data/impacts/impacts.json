@@ -1,0 +1,26 @@
+{
+  "electric-power": {
+    "link": "electric",
+    "image": "eletric_power.jpg"
+  },
+  "navigation-system": {
+    "link": "navigation",
+    "image": "gps_system.jpg"
+  },
+  "communication": {
+    "link": "communication",
+    "image": "communication.jpg"
+  },
+  "aviation": {
+    "link": "aviation",
+    "image": "aviation.jpg"
+  },
+  "human-space-exploration": {
+    "link": "exploration",
+    "image": "space_expo.jpg"
+  },
+  "satellite": {
+    "link": "satellite",
+    "image": "satellite.jpg"
+  }
+}

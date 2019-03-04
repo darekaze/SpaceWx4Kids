@@ -1,0 +1,49 @@
+<template>
+  <v-hover>
+    <!-- TODO: add route with params -->
+    <v-card
+      slot-scope="{ hover }"
+      to="#"
+      :class="`elevation-${hover ? 8 : 0}`"
+      class="round">
+      <v-img
+        class="grey darken-1 round"
+        :src="require(`@/assets/images/impacts/${content.image}`)"
+        :aspect-ratio="ratio">
+        <div class="fill-height gradient-effect">
+          <v-container fluid fill-height>
+            <v-layout fill-height align-center justify-center>
+              <span class="headline font-weight-regular white--text text-xs-center">
+                {{ title }}
+              </span>
+            </v-layout>
+          </v-container>
+        </div>
+      </v-img>
+    </v-card>
+  </v-hover>
+</template>
+
+<script>
+export default {
+  props: {
+    title: String,
+    content: Object,
+    ratio: Number,
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.gradient-effect {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18));
+  transition: 0.2s;
+
+  &:hover {
+    background-color: rgba(251, 147, 28, 0.1);
+  }
+}
+.round {
+  border-radius: 8px;
+}
+</style>

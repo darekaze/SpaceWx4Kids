@@ -20,17 +20,17 @@ export default [
       {
         path: 'phenomena',
         name: 'phenomena',
-        component: load('About'),
+        component: load('Phenomena'),
       },
       {
         path: 'impacts',
         name: 'impacts',
-        component: load('About'),
+        component: load('Impacts'),
       },
       {
         path: 'historical-events',
         name: 'historical-events',
-        component: load('About'),
+        component: load('HistoricalEvents'),
       },
       {
         path: 'alerts',
@@ -40,11 +40,11 @@ export default [
       {
         path: 'games',
         name: 'games',
-        component: load('About'),
+        component: load('Games'),
       },
       {
         path: '*',
-        component: load('404'),
+        redirect: `/${Trans.currentLanguage}/`,
       },
     ],
   },
