@@ -28,7 +28,7 @@ export default {
       },
       {
         name: 'impacts',
-        icon: 'multiline_chart', // Backup: new_releases
+        icon: 'multiline_chart',
       },
       {
         name: 'historical-events',
@@ -39,7 +39,7 @@ export default {
         icon: 'notifications_active',
       },
       {
-        name: 'games',
+        name: 'Minigames',
         icon: 'games',
       },
     ],
@@ -51,7 +51,7 @@ export default {
 {
   "en": {
     "phenomena": "Phenomena",
-    "impacts": "Effects on People and System",
+    "impacts": "Impacts",
     "historical-events": "Historical Events",
     "alerts": "Alerts",
     "games": "Games"
@@ -61,7 +61,7 @@ export default {
     "impacts": "影響",
     "historical-events": "有趣的歷史事件",
     "alerts": "警報",
-    "games": "遊戲"
+    "games": "小遊戲"
   }
 }
 </i18n>
