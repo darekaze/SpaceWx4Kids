@@ -5,7 +5,7 @@
       <div class="pr-1">
         <v-img contain
         alt="Didi Logo"
-        :src="require('@/assets/didi.svg')"
+        :src="require('@/assets/icons/didi.svg')"
         transition="scale-transition"
         height="60px" width="40px"/>
       </div>

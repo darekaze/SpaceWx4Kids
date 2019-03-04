@@ -7,7 +7,7 @@
     {{ $t('switchLang') }}
     <v-img
       alt="Sunny Logo"
-      :src="require(`@/assets/${$t('logo')}.svg`)"
+      :src="require(`@/assets/icons/${$t('logo')}.svg`)"
       transition="scale-transition"
       width="30px" height="36px"
       class="p-abs"/>

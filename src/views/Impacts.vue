@@ -1,5 +1,5 @@
 <template>
-  <sub-page :title="$t('impacts')" icon="impact_icon.png">
+  <sub-page :title="$t('impacts')" icon="icons/impact_icon.png">
     <v-container grid-list-md pt-3>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm4

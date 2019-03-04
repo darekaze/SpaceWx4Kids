@@ -7,7 +7,7 @@
     <router-link :to="$i18nRoute({ name: 'home'})">
       <v-img contain
         alt="Dr.Tin Logo"
-        :src="require('@/assets/tin.png')"
+        :src="require('@/assets/icons/tin.png')"
         transition="scale-transition"
         height="60px" width="52px"
         class="hidden-xs-only"/>

@@ -1,5 +1,5 @@
 <template>
-  <sub-page :title="$t('alerts')" icon="alert_icon.png">
+  <sub-page :title="$t('alerts')" icon="icons/alert_icon.png">
     <v-container v-if="isInit">
       <v-layout column fill-height justify-center>
         <v-flex xs12 py-2
