@@ -1,0 +1,98 @@
+{
+    "R": {
+        "R5": {
+            "scale": "5",
+            "definition": "X-ray peak flux = 2 x 10<sup>-3</sup> Wm<sup>-2</sup><br>(X20 flare)",
+            "intensity": "Extreme"
+        },
+        "R4": {
+            "scale": "4",
+            "definition": "X-ray peak flux = 1 x 10<sup>-3</sup> Wm<sup>-2</sup><br>(X10 flare)",
+            "intensity": "Severe"
+        },
+        "R3": {
+            "scale": "3",
+            "definition": "X-ray peak flux = 1 x 10<sup>-4</sup> Wm<sup>-2</sup><br>(X1 flare)",
+            "intensity": "Strong"
+        },
+        "R2": {
+            "scale": "2",
+            "definition": "X-ray peak flux = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M2 flare)",
+            "intensity": "Moderate"
+        },
+        "R1": {
+            "scale": "1",
+            "definition": "X-ray peak flux = 1 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M1 flare)",
+            "intensity": "Minor"
+        },
+        "No Scale": {
+            "scale": "0",
+            "definition": "X-ray peak flux &lt; 1 x 10-5 Wm<sup>-2</sup>",
+            "intensity": "-"
+        }
+    },
+    "S": {
+        "S5": {
+            "scale": "5",
+            "definition": "10 MeV particles flux = 10<sup>5</sup> pfu",
+            "intensity": "Extreme"
+        },
+        "S4": {
+            "scale": "4",
+            "definition": "10 MeV particles flux = 10<sup>4</sup> pfu",
+            "intensity": "Severe"
+        },
+        "S3": {
+            "scale": "3",
+            "definition": "10 MeV particles flux = 10<sup>3</sup> pfu",
+            "intensity": "Strong"
+        },
+        "S2": {
+            "scale": "2",
+            "definition": "10 MeV particles flux = 10<sup>2</sup> pfu",
+            "intensity": "Moderate"
+        },
+        "S1": {
+            "scale": "1",
+            "definition": "10 MeV particles flux = 10 pfu",
+            "intensity": "Minor"
+        },
+        "No Scale": {
+            "scale": "0",
+            "definition": "10 MeV particles flux &lt; 10 pfu",
+            "intensity": "-"
+        }
+    },
+    "G": {
+        "G5": {
+            "scale": "5",
+            "definition": "Kp index = 9",
+            "intensity": "Extreme"
+        },
+        "G4": {
+            "scale": "4",
+            "definition": "Kp index = 8",
+            "intensity": "Severe"
+        },
+        "G3": {
+            "scale": "3",
+            "definition": "Kp index = 7",
+            "intensity": "Strong"
+        },
+        "G2": {
+            "scale": "2",
+            "definition": "Kp index = 6",
+            "intensity": "Moderate"
+        },
+        "G1": {
+            "scale": "1",
+            "definition": "Kp index = 5",
+            "intensity": "Minor"
+        },
+        "No Scale": {
+            "scale": "0",
+            "definition": "Kp index &lt; 5",
+            "intensity": "-"
+        }
+    }
+}

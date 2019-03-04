@@ -4,17 +4,18 @@
       <v-flex xs12 sm5>
         <v-img
           :src="require(`@/assets/images/${info.image}`)"
-          :aspect-ratio="$vuetify.breakpoint.xsOnly ? 2.2 : 1.6">
+          :height="$vuetify.breakpoint.xsOnly ? 180 : 220">
           <v-layout fill-height align-end justify-end>
             <indicator
               :scale="condition.scale"
               :msg="condition.message"
-              class="pb-2 pr-3 grey--text text--lighten-3 subheading"/>
+              class="pb-2 pr-3 grey--text text--lighten-3 subheading ctx-click"
+              @click.stop="toogleDialog()"/>
           </v-layout>
         </v-img>
       </v-flex>
       <v-flex xs12 sm7>
-        <v-container fill-height>
+        <v-container fill-height pb-0>
           <v-layout wrap ma-0>
             <v-flex xs12>
               <h3 class="title indigo--text font-weight-bold mb-2">
@@ -25,27 +26,61 @@
               </div>
             </v-flex>
             <v-flex align-self-end>
-              <!-- action btns -->
+              <v-card-actions class="px-0">
+                <v-tooltip right open-delay="100">
+                  <template #activator="hint">
+                    <v-btn
+                      flat icon
+                      v-on="hint.on"
+                      @click.stop="toogleDialog()"
+                      :color="getColor(condition.scale)">
+                      <v-icon>{{ alertIcon }}</v-icon>
+                    </v-btn>
+                  </template>
+                  <span>Show Details</span>
+                </v-tooltip>
+                <v-spacer/>
+                <v-btn flat color="indigo">Learn More</v-btn>
+              </v-card-actions>
             </v-flex>
           </v-layout>
         </v-container>
       </v-flex>
     </v-layout>
+    <alert-dialog
+      ref="alertDialog" :info="info" :condition="condition"/>
   </v-card>
 </template>
 
 <script>
+import getColor from '@/helpers/indicatorColor';
+
 export default {
   components: {
     Indicator: () => import('@/components/Alerts/Indicator.vue'),
+    AlertDialog: () => import('@/components/Alerts/Dialog/AlertDialog.vue'),
   },
   props: {
     info: Object,
     condition: Object,
   },
+  methods: {
+    getColor,
+    toogleDialog() {
+      this.$refs.alertDialog.display();
+    },
+  },
+  computed: {
+    alertIcon() {
+      return this.condition.scale ? 'notifications_active' : 'notifications';
+    },
+  },
 };
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.ctx-click {
+  cursor: pointer;
+  user-select: none;
+}
 </style>

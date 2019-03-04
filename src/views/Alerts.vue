@@ -4,13 +4,8 @@
       <img class="img-valign" :src="require('@/assets/alert_icon.png')" alt="" />
       <span class="white--text font-weight-light titl">Alerts</span>
     </v-layout>
-    <v-container pa-0 v-if="isInit">
-      <div class="subheading white--text text-xs-right mr-3">
-        Updated at {{ dateTime }}
-      </div>
-    </v-container>
-    <v-container>
-      <v-layout column fill-height justify-center v-if="isInit">
+    <v-container v-if="isInit">
+      <v-layout column fill-height justify-center>
         <v-flex xs12 py-2
           v-for="(value, key) in $t('alertsInfo')" :key="key">
           <alert-card
@@ -18,12 +13,19 @@
             :condition="getConditionInfo(key)"/>
         </v-flex>
       </v-layout>
+      <div class="white--text text-xs-right">
+        <div class="subheading">
+          Updated at {{ dateTime }}
+        </div>
+        <div class="font-italic">
+          (Source: Space Weather Prediction Center)
+        </div>
+      </div>
     </v-container>
   </div>
 </template>
 
-<script>
-/* eslint-disable max-len */
+<script> /* eslint-disable max-len */
 import { mapGetters } from 'vuex';
 
 export default {
