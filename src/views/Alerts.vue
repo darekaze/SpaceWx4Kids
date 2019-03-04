@@ -1,9 +1,5 @@
 <template>
-  <div id="alerts-page">
-    <v-layout justify-center pt-4>
-      <img class="img-valign" :src="require('@/assets/alert_icon.png')" alt="" />
-      <span class="white--text font-weight-light titl">Alerts</span>
-    </v-layout>
+  <sub-page :title="$t('alerts')" icon="alert_icon.png">
     <v-container v-if="isInit">
       <v-layout column fill-height justify-center>
         <v-flex xs12 py-2
@@ -22,7 +18,7 @@
         </div>
       </div>
     </v-container>
-  </div>
+  </sub-page>
 </template>
 
 <script> /* eslint-disable max-len */
@@ -31,6 +27,7 @@ import { mapGetters } from 'vuex';
 export default {
   name: 'alerts-page',
   components: {
+    SubPage: () => import('@/components/SubPageTemplate.vue'),
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
   },
   computed: {
@@ -70,31 +67,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.img-valign {
-  height: 75px;
-  vertical-align: middle;
-  margin-right: 12px;
-}
-.titl {
-  font-size: 56px !important;
-}
-
-@media only screen and (max-width: 600px) {
-  .img-valign {
-    height: 55px;
-  }
-  .titl {
-    font-size: 40px !important;
-  }
-}
-
-// TODO: Locale i18n
-</style>
-
 <i18n>
 {
   "en": {
+    "alerts": "Alerts",
     "alertsInfo": {
       "R": {
         "name": "Radio Blackout",
@@ -114,6 +90,7 @@ export default {
     }
   },
   "zh": {
+    "alerts": "警報",
     "alertsInfo": {
       "R": {
         "name": "Radio Blackout",
