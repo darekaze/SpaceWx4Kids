@@ -19,8 +19,19 @@ export default [
       },
       {
         path: 'phenomena',
-        name: 'phenomena',
         component: load('Phenomena'),
+        children: [
+          {
+            path: '',
+            name: 'phenomena',
+            component: load('PhenomenaIndex'),
+          },
+          {
+            path: ':topic',
+            name: 'phenomena-topic',
+            component: load('Article'),
+          },
+        ],
       },
       {
         path: 'impacts',

@@ -3,7 +3,7 @@
   <v-card
     dark flat color="transparent"
     class="round"
-    to="#">
+    :to="$i18nRoute({ name: 'phenomena-topic', params: { topic: content.link } })">
     <v-img
       class="grey darken-1 round"
       :src="require(`@/assets/images/phenomena/${content.image}`)"
