@@ -42,6 +42,7 @@ export default {
 }
 
 .tint-black {
-  background: #30505c62;
+  background: #30505c60;
+  border-radius: 4px;
 }
 </style>
