@@ -2,7 +2,11 @@
   <v-app>
     <m-header/>
     <v-content>
-      <space-bg><router-view/></space-bg>
+      <space-bg>
+        <v-fade-transition mode="out-in">
+          <router-view/>
+        </v-fade-transition>
+      </space-bg>
     </v-content>
     <m-footer/>
   </v-app>
