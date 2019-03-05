@@ -35,8 +35,19 @@ export default [
       },
       {
         path: 'impacts',
-        name: 'impacts',
         component: load('Impacts'),
+        children: [
+          {
+            path: '',
+            name: 'impacts',
+            component: load('ImpactsIndex'),
+          },
+          {
+            path: ':topic',
+            name: 'impacts-topic',
+            component: load('Article'),
+          },
+        ],
       },
       {
         path: 'historical-events',

@@ -3,7 +3,7 @@
     <!-- TODO: add route with params -->
     <v-card
       slot-scope="{ hover }"
-      to="#"
+      :to="$i18nRoute({ name: 'impacts-topic', params: { topic: content.link } })"
       :class="`elevation-${hover ? 8 : 0}`"
       class="round">
       <v-img
