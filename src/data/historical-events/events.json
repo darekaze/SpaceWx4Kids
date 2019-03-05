@@ -1,0 +1,20 @@
+[
+  {
+    "year": "1859",
+    "name": "carrington-event",
+    "image": "1859@Univ_of_Alaska.jpg",
+    "color": "cyan"
+  },
+  {
+    "year": "1989",
+    "name": "quebec-electrical-blackout",
+    "image": "1989@Ken_Spencer.jpg",
+    "color": "green"
+  },
+  {
+    "year": "2003",
+    "name": "halloween-solar-storm",
+    "image": "2003@ISS.jpg",
+    "color": "orange"
+  }
+]
