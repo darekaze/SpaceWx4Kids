@@ -2,15 +2,18 @@
   <!-- TODO: add route with params -->
   <v-card
     dark flat color="transparent"
+    class="round"
     to="#">
     <v-img
-      class="grey darken-1"
+      class="grey darken-1 round"
       :src="require(`@/assets/images/phenomena/${content.image}`)"
       :aspect-ratio="ratio">
       <div class="fill-height gradient-effect"/>
     </v-img>
-    <v-card-text class="py-2 headline text-xs-center">
-      <div>{{ title }}</div>
+    <v-card-text class="py-2 headline text-xs-center grey--text text--lighten-3">
+      <div>
+        <span class="tint-black px-2">{{ title }}</span>
+      </div>
     </v-card-text>
   </v-card>
 </template>
@@ -33,5 +36,12 @@ export default {
   &:hover {
     background-color: rgba(28, 251, 195, 0.15);
   }
+}
+.round {
+  border-radius: 4px;
+}
+
+.tint-black {
+  background: #30505c62;
 }
 </style>

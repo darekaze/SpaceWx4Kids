@@ -1,11 +1,11 @@
 <template>
   <sub-page :title="$t('phenomena')" icon="icons/ph_icon.svg">
     <v-container grid-list-md pt-3>
-      <v-layout row wrap justify-space-between>
-        <v-flex xs12 sm4
+      <v-layout row wrap justify-center>
+        <v-flex xs12 sm6 lg4 xl3
           class="pa-2"
           v-for="(value, key) in phenomena" :key="key">
-          <cool-card :title="$t(key)" :content="value" :ratio="1.5"/>
+          <cool-card :title="$t(key)" :content="value" :ratio="16/10"/>
         </v-flex>
       </v-layout>
     </v-container>
