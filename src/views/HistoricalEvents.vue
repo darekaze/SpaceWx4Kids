@@ -1,5 +1,5 @@
 <template>
-  <sub-page :title="$t('historical-events')" icon="icons/ph_icon.svg">
+  <sub-page :title="$t('historical-events')" icon="icons/event_icon.png">
     <v-container pt-3>
       <v-card class="bg-card">
         <v-card-text>
@@ -45,10 +45,9 @@ export default {
 <style lang="scss" scoped>
 .bg-card {
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffffe6;
 }
 </style>
-
 
 <i18n>
 {
