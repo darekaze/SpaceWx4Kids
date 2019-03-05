@@ -4,7 +4,7 @@
       <v-layout row wrap justify-center>
         <v-flex xs12 sm4
           v-for="(value, key) in impacts" :key="key">
-          <simple-card :title="$t(key)" :content="value" :ratio="ratio"/>
+          <impact-card :title="$t(key)" :content="value" :ratio="ratio"/>
         </v-flex>
       </v-layout>
     </v-container>
@@ -18,7 +18,7 @@ export default {
   name: 'impacts-page',
   components: {
     SubPage: () => import('@/components/SubPageTemplate.vue'),
-    SimpleCard: () => import('@/components/Cards/SimpleCard.vue'),
+    ImpactCard: () => import('@/components/Cards/ImpactCard.vue'),
   },
   data: () => ({
     impacts,

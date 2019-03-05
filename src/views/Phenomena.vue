@@ -5,7 +5,7 @@
         <v-flex xs12 sm6 lg4 xl3
           class="pa-2"
           v-for="(value, key) in phenomena" :key="key">
-          <cool-card :title="$t(key)" :content="value" :ratio="16/10"/>
+          <ph-card :title="$t(key)" :content="value" :ratio="16/10"/>
         </v-flex>
       </v-layout>
     </v-container>
@@ -19,7 +19,7 @@ export default {
   name: 'phenomena-page',
   components: {
     SubPage: () => import('@/components/SubPageTemplate.vue'),
-    CoolCard: () => import('@/components/Cards/CoolCard.vue'),
+    PhCard: () => import('@/components/Cards/PhCard.vue'),
   },
   data: () => ({
     phenomena,
