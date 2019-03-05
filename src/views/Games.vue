@@ -2,6 +2,7 @@
   <sub-page :title="$t('games')" icon="icons/ph_icon.svg">
     <v-container grid-list-md fill-height pt-3>
       <div class="white--text display-1">Under Development, Coming Soon...</div>
+      <!-- TODO: Add games and unity loader -->
     </v-container>
   </sub-page>
 </template>
