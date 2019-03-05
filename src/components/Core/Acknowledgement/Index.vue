@@ -8,7 +8,7 @@
         {{ $t('ack') }}
       </v-btn>
     </template>
-    <Logs/>
+    <Logs @dialog="dialog = false" />
   </v-dialog>
 </template>
 

@@ -16,16 +16,16 @@
     <v-container py-0 fill-height>
       <v-layout row fill-height justify-space-around>
         <v-layout column justify-center>
-          <topic-card :title="$t('alerts')" img="home_alert" to="alerts"/>
+          <topic-card :title="$t('alerts')" img="nh_alert" to="alerts"/>
         </v-layout>
         <v-flex xs4>
           <v-layout column justify-center>
-            <topic-card :title="$t('phenomena')" img="home_ph" to="phenomena"/>
-            <topic-card :title="$t('historical-events')" img="home_event" to="historical-events"/>
+            <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
+            <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events"/>
           </v-layout>
         </v-flex>
         <v-layout column justify-center>
-          <topic-card :title="$t('impacts')" img="home_impact" to="impacts"/>
+          <topic-card :title="$t('impacts')" img="nh_impact" to="impacts"/>
         </v-layout>
       </v-layout>
     </v-container>
@@ -35,7 +35,7 @@
 <script>
 export default {
   components: {
-    TopicCard: () => import('@/components/Home/Topic.vue'),
+    TopicCard: () => import('@/components/Cards/TopicCard.vue'),
   },
   computed: {
     mobile() {
