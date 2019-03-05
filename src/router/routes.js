@@ -51,8 +51,19 @@ export default [
       },
       {
         path: 'historical-events',
-        name: 'historical-events',
         component: load('HistoricalEvents'),
+        children: [
+          {
+            path: '',
+            name: 'historical-events',
+            component: load('HistoricalEventsIndex'),
+          },
+          {
+            path: ':topic',
+            name: 'historical-events-topic',
+            component: load('Article'),
+          },
+        ],
       },
       {
         path: 'alerts',

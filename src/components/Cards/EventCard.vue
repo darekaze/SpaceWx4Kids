@@ -3,7 +3,7 @@
   <v-card
     dark flat color="transparent"
     class="round"
-    to="#">
+    :to="$i18nRoute({ name: 'historical-events-topic', params: { topic: content.name } })">
     <v-img
       class="grey darken-1 round"
       :src="require(`@/assets/images/historical-events/${content.image}`)"
