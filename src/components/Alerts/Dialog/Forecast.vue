@@ -19,12 +19,12 @@
       <v-card tile>
         <v-card-title>
           <v-layout row wrap>
-            <v-flex>
+            <v-flex xs12>
               <h2 class="subheading indigo--text font-weight-bold">
                 {{ formatDate(item.DateStamp) }}
               </h2>
               <div class="grey--text text--darken-1 body-1">
-                {{ isG ? 'Maximum Scale' : 'Chance of Occurance' }}
+                {{ isG ? $t('max-scale') : $t('chance') }}
               </div>
             </v-flex>
             <v-flex @click.stop="toogleLegend()">
@@ -32,7 +32,7 @@
                 class="text-xs-center rate py-1"
                 v-for="(value, key) in getAttr(item)" :key="key">
                 <h4>
-                  <indicator :scale="getLevel(value)" :msg="msg[key]"/>
+                  <indicator :scale="getLevel(value)" :msg="$t('msg')[key]"/>
                 </h4>
                 <span class="subheading pl-4">
                   {{ `${value}${isG ? '' : '%'}` }}
@@ -53,6 +53,7 @@
 import { mapGetters } from 'vuex';
 import _identity from 'lodash/identity';
 import _pickBy from 'lodash/pickBy';
+import { Trans } from '@/plugins/i18n';
 
 export default {
   props: { code: String },
@@ -60,24 +61,14 @@ export default {
     Indicator: () => import('@/components/Alerts/Indicator.vue'),
     Legends: () => import('@/components/Alerts/Dialog/Legend.vue'),
   },
-  data: () => ({
-    // TODO: Locale
-    msg: {
-      MinorProb: 'R1-R2',
-      MajorProb: 'R3-R5',
-      Prob: 'S1 or greater',
-      Scale: 'G-Scale',
-    },
-  }),
   computed: {
     ...mapGetters(['getForecast']),
     isG() { return this.code === 'G'; },
     formatDate() {
-      // TODO: Locale
       return (day) => {
         const date = new Date(day);
         const options = { month: 'short', day: 'numeric' };
-        return date.toLocaleDateString('en-US', options);
+        return date.toLocaleDateString(Trans.currentLanguage, options);
       };
     },
 
@@ -107,11 +98,27 @@ export default {
 {
   "en": {
     "three-day-forecast": "3-Day Forecast",
-    "legend": "Legend"
+    "legend": "Legend",
+    "chance": "Chance of Occurance",
+    "max-scale": "Maximum Scale",
+    "msg": {
+      "MinorProb": "R1-R2",
+      "MajorProb": "R3-R5",
+      "Prob": "S1 or greater",
+      "Scale": "G-Scale"
+    }
   },
   "zh": {
     "three-day-forecast": "三日預報",
-    "legend": "顏色標簽"
+    "legend": "顏色標簽",
+    "chance": "發生幾率",
+    "max-scale": "最高級別",
+    "msg": {
+      "MinorProb": "R1-R2",
+      "MajorProb": "R3-R5",
+      "Prob": "S1或以上",
+      "Scale": "G級別"
+    }
   }
 }
 </i18n>

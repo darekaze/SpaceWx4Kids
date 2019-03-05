@@ -11,10 +11,10 @@
       </v-layout>
       <div class="white--text text-xs-right">
         <div class="subheading">
-          Updated at {{ dateTime }}
+          {{ `${$t('updated')} ${dateTime}` }}
         </div>
         <div class="font-italic">
-          (Source: Space Weather Prediction Center)
+          ({{ $t('source') }})
         </div>
       </div>
     </v-container>
@@ -71,41 +71,51 @@ export default {
 {
   "en": {
     "alerts": "Alerts",
+    "updated": "Updated at",
+    "source": "Source: Space Weather Prediction Center",
     "alertsInfo": {
       "R": {
         "name": "Radio Blackout",
-        "description": "Intense X-rays with ionizing power upset the Earth's ionosphere, producing signal scintillations and disrupting radio communication.",
-        "image": "radio_blackout.jpg"
+        "description": "X-ray and Extreme Ultra Violet radiation from the sun would ionize the sunlit side of Earth, leading to large amount of energy lost as radio waves pass through this region,and cause radio blackout. ",
+        "image": "radio_blackout.jpg",
+        "code": "R"
       },
       "S": {
         "name": "Solar Radiation Storm",
-        "description": "Streams of energetic particles and plasma pose threats to astronauts in space and to passengers and crews on polar flights.",
-        "image": "solar_radiation_storm.jpg"
+        "description": "When the influx of radiation particle is so intense that it overwhelms the magnetosphere, the charged particles are able to reach deeper down into the atmosphere at the poles, posing threats to astronauts in space, passengers and crews on polar flights and damage electronics on satellites and spacecrafts on the way.",
+        "image": "solar_radiation_storm.jpg",
+        "code": "S"
       },
       "G": {
         "name": "Geomagnetic Storm",
-        "description": "Through electromagnetic induction, transient electric surges can damage transformers, electronic instruments and navigation equipment.",
-        "image": "geomagnetic_storm.jpg"
+        "description": "Coronal mass ejections deposit energy and result in intense currents in the Earth’s magnetosphere. The density of the atmosphere would be inceased. It could cause extra drag on satellites in low-earth orbit, modify the radio signals path or affect the performance of GPS systems.",
+        "image": "geomagnetic_storm.jpg",
+        "code": "G"
       }
     }
   },
   "zh": {
     "alerts": "警報",
+    "updated": "更新時間：",
+    "source": "資料來源：美國太空天氣預報中心",
     "alertsInfo": {
       "R": {
-        "name": "Radio Blackout",
-        "description": "",
-        "image": "radio_blackout.jpg"
+        "name": "無線電通信中斷",
+        "description": "太陽釋放出來的紫外線輻射和X-射線會把地球上被陽光照射的一面離子化，以至當無線電波通過該區域時，產生大量的能量損失並擾亂地球的電離層，導致無線電通信中斷。",
+        "image": "radio_blackout.jpg",
+        "code": "R"
       },
       "S": {
-        "name": "Solar Radiation Storm",
-        "description": "",
-        "image": "solar_radiation_storm.jpg"
+        "name": "太陽輻射風暴",
+        "description": "當大量來自太陽的高能量質子輻射流入磁力圈，到磁力圈不能承受時，圈內帶電荷粒子便能進入大氣兩極，途中對衛星、太空人、極地航班的乘客和機組人員或太空船的電子組件等造成影響。",
+        "image": "solar_radiation_storm.jpg",
+        "code": "S"
       },
       "G": {
-        "name": "Geomagnetic Storm",
-        "description": "",
-        "image": "geomagnetic_storm.jpg"
+        "name": "地磁風暴",
+        "description": "日冕物質拋射的等離子體在地球磁層中產生強烈的電流，扭曲地球磁場，令大氣的密度會增加，影響低地球軌道上的衛星軌道、無線電信號路徑或GPS系統的性能。",
+        "image": "geomagnetic_storm.jpg",
+        "code": "G"
       }
     }
   }

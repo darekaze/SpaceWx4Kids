@@ -21,7 +21,7 @@
       </v-img>
       <v-card-text>
         <v-layout column fill-height px-3>
-          <!-- TODO: apply alert content and separate as component -->
+          <!-- ENHANCE: apply alert content and separate as component -->
           <v-alert
             :value="false"
             icon="priority_high"
@@ -29,8 +29,8 @@
             class="border-lint mt-3">
             {{ condition.message }}
           </v-alert>
-          <!-- Forecast panel and legend HACK -->
-          <forecast-panel :code="info.name[0]"/>
+          <!-- Forecast panel and legend -->
+          <forecast-panel :code="info.code"/>
         </v-layout>
       </v-card-text>
 
