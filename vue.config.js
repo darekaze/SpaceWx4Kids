@@ -1,5 +1,11 @@
 /* eslint-disable no-unused-vars */
+const subDirName = 'r2dev/spacewx4kids'; // Remember to change you site directory!!
+
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? `/${subDirName}/`
+    : '/',
+  outputDir: `dist/${subDirName}`,
   pluginOptions: {
     i18n: {
       locale: 'en',
