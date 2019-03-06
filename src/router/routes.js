@@ -71,6 +71,16 @@ export default [
         component: load('Alerts'),
       },
       {
+        path: 'sun',
+        name: 'sun',
+        component: load('TheSun'),
+      },
+      {
+        path: 'earth',
+        name: 'earth',
+        component: load('TheEarth'),
+      },
+      {
         path: 'games',
         name: 'games',
         component: load('Games'),

@@ -2,7 +2,7 @@
   <v-container pt-3>
     <v-card class="extra">
       <div>
-        {{ $route.params.topic }}
+        {{ $route.params.topic || $route.name }}
       </div>
       <!-- TODO: Add markdown parser -->
       <v-card-text>
