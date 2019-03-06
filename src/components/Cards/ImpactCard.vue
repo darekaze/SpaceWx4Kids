@@ -1,6 +1,5 @@
 <template>
   <v-hover>
-    <!-- TODO: add route with params -->
     <v-card
       slot-scope="{ hover }"
       :to="$i18nRoute({ name: 'impacts-topic', params: { topic: content.link } })"
