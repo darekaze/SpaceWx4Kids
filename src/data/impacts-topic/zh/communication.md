@@ -1,0 +1,8 @@
+##通訊
+
+![img](https://lh5.googleusercontent.com/9Bpd71SV55h8e-YNZRscRQL5MUCljqJp15DH9jyQNkI1BRDFGdzJZeSUUrOzrnNnwvuQ_VXdns2x8mXvhto2sGzPsPagfriNmgT93Uj838EqjCOyKQ8Jl7TgKDNq1ZWX8sL1SuYs)
+
+所有頻率的通訊都受太空天氣的影響。**高頻率無線電通訊**利用電離層的反射作長距離訊號傳遞。**太陽耀斑**所釋放出的**X射線**會引致大氣產生電離而加強了電離層的D層，從而干擾無線電訊號及引致**無線電黑障**。
+
+**太陽輻射風暴**產生的高能量太陽質子受地球磁場引導而在南北極與高空大氣層碰撞。這些質子亦會加強電離層的D層，**阻礙在高緯度的高頻率無線電通訊**。
+

@@ -36,11 +36,11 @@
     "image": "radiation_belt.jpg"
   },
   "radio-blackouts": {
-    "link": "radio_blackouts",
+    "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
   },
   "solar-radiation-storm": {
-    "link": "solar_radiation_storm",
+    "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
   }
 }
