@@ -6,7 +6,7 @@
     <v-img contain
       :src="require(`@/assets/icons/${img}.png`)"
       transition="scale-transition"
-      max-height="270"/>
+      max-height="220"/>
     <v-card-text
       class="text-xs-center grey--text text--lighten-3 px-0"
       :class="{
