@@ -1,4 +1,4 @@
-##1989: Solar Flare – Quebec Electrical Blackout**
+## 1989: Solar Flare – Quebec Electrical Blackout
 
 In March 1989, a sunspot group which is as large as the sum of the size of 54 Earths caused more than **195 solar flares**. On 10 March, astronomers witnessed a powerful explosion on the sun. Within minutes, tangled magnetic forces on the sun had released a billion-ton cloud of gas. On the evening of 12 March, the vast cloud of solar plasma (a gas of electrically charged particles) finally struck Earth's magnetic field. 
 
@@ -6,7 +6,7 @@ The huge magnetic storm created a **huge electrical power blackout** which cover
 
 In space, some satellites tumbled out of control for several hours. NASA's TDRS-1 communication satellite recorded over 250 anomalies as high-energy particles invaded the satellite's sensitive electronics. Even the Space Shuttle Discovery was having problems on its sensor.
 
-![Picture2](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/Picture2.jpg)
+![Picture2](./1989@Ken_Spencer.jpg)
 
 Artist rendition of the 1989 blackout.
 
@@ -35,5 +35,3 @@ Reference:
 http://www.thesuntoday.org/space-weather/impacts/
 
 https://www.nasa.gov/topics/earth/features/sun_darkness.html
-
-

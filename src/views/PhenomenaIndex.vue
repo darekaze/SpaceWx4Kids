@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import phenomena from '@/data/phenomena/phenomena.json';
+import phenomena from '@/data/phenomena-topic/phenomena.json';
 
 export default {
   name: 'phenomena-index-page',
