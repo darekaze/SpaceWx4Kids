@@ -49,5 +49,9 @@ export default {
     text-align: center;
     color: orange;
   }
+  & /deep/img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 </style>

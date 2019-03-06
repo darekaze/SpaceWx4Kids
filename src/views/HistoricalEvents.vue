@@ -1,6 +1,6 @@
 <template>
   <sub-page :title="$t('historical-events')" icon="icons/event_icon.png">
-    <v-fade-transition>
+    <v-fade-transition mode="out-in">
       <router-view/>
     </v-fade-transition>
   </sub-page>

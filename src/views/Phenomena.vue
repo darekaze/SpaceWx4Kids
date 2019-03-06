@@ -1,6 +1,6 @@
 <template>
   <sub-page :title="$t('phenomena')" icon="icons/ph_icon.svg">
-    <v-fade-transition>
+    <v-fade-transition mode="out-in">
       <router-view/>
     </v-fade-transition>
   </sub-page>
