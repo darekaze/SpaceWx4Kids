@@ -18,7 +18,9 @@
         <v-flex xs4>
           <v-layout column justify-center>
             <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
-            <topic-card :title="$t('sun')" img="nh_sun" to="sun"/>
+            <div class="pt-4">
+              <topic-card :title="$t('sun')" img="nh_sun" to="sun"/>
+            </div>
           </v-layout>
         </v-flex>
         <v-layout column justify-center>
