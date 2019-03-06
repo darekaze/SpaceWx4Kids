@@ -2,7 +2,7 @@
   <div>
     <v-layout justify-center pt-4>
       <img class="img-valign" :src="require(`@/assets/${icon}`)" alt="" />
-      <span class="white--text font-weight-light titl">{{ title }}</span>
+      <span class="white--text titl text-uppercase">{{ title }}</span>
     </v-layout>
     <slot/>
   </div>
@@ -18,12 +18,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300');
+
 .img-valign {
   height: 75px;
   vertical-align: middle;
   margin-right: 12px;
 }
 .titl {
+  font-family: 'Saira Extra Condensed','Noto Sans TC', sans-serif !important;
   font-size: 56px !important;
 }
 

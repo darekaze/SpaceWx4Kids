@@ -10,13 +10,13 @@
     <v-card-text
       class="text-xs-center grey--text text--lighten-3"
       :class="{
-        headline: $vuetify.breakpoint.smAndUp,
-        subheading: $vuetify.breakpoint.xsOnly,
+        'display-1': $vuetify.breakpoint.smAndUp,
+        'headline': $vuetify.breakpoint.xsOnly,
         'py-2': this.mobile,
         'py-3': !this.mobile,
       }">
       <div class="text-xs-center">
-        <span class="tint-black">{{ title }}</span>
+        <span class="custom-title font-weight-bold">{{ title }}</span>
       </div>
     </v-card-text>
   </v-card>
@@ -41,8 +41,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tint-black {
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.custom-title {
+  font-family: 'Indie Flower', 'Noto Sans TC', cursive !important;
   background: #2f4e5a80;
   border-radius: 4px;
+  line-height: 30px;
 }
 </style>

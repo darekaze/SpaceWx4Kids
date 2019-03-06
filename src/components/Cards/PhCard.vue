@@ -10,9 +10,9 @@
       :aspect-ratio="ratio">
       <div class="fill-height gradient-effect"/>
     </v-img>
-    <v-card-text class="py-2 headline text-xs-center grey--text text--lighten-3">
+    <v-card-text class="py-2 display-1 text-xs-center grey--text text--lighten-3">
       <div>
-        <span class="tint-black px-2">{{ title }}</span>
+        <span class="custom-title px-2">{{ title }}</span>
       </div>
     </v-card-text>
   </v-card>
@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 .gradient-effect {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
   transition: 0.2s;
@@ -40,8 +42,8 @@ export default {
 .round {
   border-radius: 4px;
 }
-
-.tint-black {
+.custom-title {
+  font-family: 'Indie Flower', 'Noto Sans TC', cursive !important;
   background: #30505c60;
   border-radius: 4px;
 }

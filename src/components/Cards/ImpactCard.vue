@@ -13,7 +13,7 @@
         <div class="fill-height gradient-effect">
           <v-container fluid fill-height>
             <v-layout fill-height align-center justify-center>
-              <span class="headline font-weight-regular white--text text-xs-center">
+              <span class="c-font display-1 font-weight-regular white--text text-xs-center">
                 {{ title }}
               </span>
             </v-layout>
@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 .gradient-effect {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18));
   transition: 0.2s;
@@ -45,5 +46,8 @@ export default {
 }
 .round {
   border-radius: 8px;
+}
+.c-font {
+  font-family: 'Saira Extra Condensed', 'Noto Sans TC', sans-serif !important;
 }
 </style>

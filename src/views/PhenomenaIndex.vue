@@ -44,7 +44,7 @@ export default {
     "solar-wind": "太陽風",
     "sunspots": "太陽黑子/太陽周期",
     "coronal-holes": "冕洞",
-    "cme": "日冕物質抛射",
+    "cme": "日冕物質拋射",
     "magnetosphere": "地球磁層",
     "geomagnetic-storm": "地磁風暴",
     "ionosphere": "電離層",
