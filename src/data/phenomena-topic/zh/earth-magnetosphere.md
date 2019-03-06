@@ -1,6 +1,6 @@
-##地球磁層
+## 地球磁層
 
-![Illustration of the Earth's magnetosphere](https://lh6.googleusercontent.com/oaNU_V_JWkSqTlsxwWctua75gu8yj7jaXgrYK0o2jjoJi0Y-yqXm6ZXOsh9lYoYkqO-VZd_4Eu-fKrSg5y9MDf7aZS4G-SpXZsC2kjwadU32P__cBhxHrvC9JBs24plFd9lSK873)
+![0306_mag](./static/0306_mag.gif)
 
 (圖片來源︰nasa)
 
@@ -10,12 +10,14 @@
 
 除了地球之外，其他星球也有機會擁有磁層。
 
-![Jupiter's magnetosphere](https://lh4.googleusercontent.com/YrhG2R1VWDF4__vq5gLuPoKw0JXM-pAkyT4CNzn9diFL0BZcyMY8qqBdzx_mhLhgCmCxIja77mEUXOSIX8zGoUp0AhEcuE2yIYO8Rl192JEW9swVlnv58kMxBgNKHselcmbAEpmn)
+![0306_mag_@](./static/0306_mag_@.jpg)
 
 木星的磁層
-
 (圖片來源︰<http://planetaryexploration-net.planetpatriot.net/jupiter/io/jupiter%27s_magnetosphere.html>)
 
+
+
 資料來源︰
+
 http://www.physics.org/article-questions.asp?id=64
 

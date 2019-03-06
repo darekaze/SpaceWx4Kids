@@ -1,6 +1,6 @@
-##太陽輻射風暴
+## 太陽輻射風暴
 
-![m9](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/m9.jpg)
+![0306_srs](./static/0306_srs.jpg)
 
 (資料來源︰Solar Dynamics Observatory)
 

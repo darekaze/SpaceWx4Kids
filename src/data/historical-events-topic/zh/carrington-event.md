@@ -2,7 +2,7 @@
 
 1859年的一場太陽風暴令當時的**電報系統**出現了混亂。當年９月１日，英國天文學家理查卡靈頓從他的望遠鏡投射出來的影像上觀察到太陽黑子群中的一次特大爆炸。
 
-![圖二](https://www.hko.gov.hk/education/edu05spacewx/images/ele-spcwx-history-2.png)
+![0306_1859](./static/0306_1859.png)
 <p align="center"> 1859年9月1日太陽黑子繪圖。卡靈頓觀察到白色閃光從黑子團中的A B點走到C D點然後消失。</p>
 <p align="center">（圖片來源：皇家天文學會月報）</p>
 

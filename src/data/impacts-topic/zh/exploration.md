@@ -1,14 +1,14 @@
-##人類太空探索
+## 人類太空探索
 
 **日冕物質拋射**將大量高能粒子釋放至太空中，對**太空人**的健康構成危害。在執行太空任務時，太空人在機艙外工作，會更暴露在太空輻射當中。
 
-![Astronauts working in space have protective clothing against radiation.](https://lh3.googleusercontent.com/909MepY_9OAhHLQ8ZrbjAD7xLn3fgXNpySTuFTrHzQ-qJwwCQ3T4jUBoeYZp2tj1oMcJn0Ki-iYXKsLIM3pfdph_DgqSliM9lWCWFiy2LDPq-i4Vq4w-J4FR2P2eOmov5PVJPyg7)
+![0306_exploration_1](./static/0306_exploration_1.jpg)
 
 太空人需要穿著輻射防護衣在太空工作
 
 （資料來源︰National Aeronautics and Space Administration）
 
-![The operation of spacecraft can be affected by violent space weather.](https://lh4.googleusercontent.com/FLgz5s-tazyjXOS3Lo_BR0BsnCIqBxvGg5b4fwYwIA-99PlFhb1YqPN63dVpVGb9pYnjDRjbFLfE8haBCXYtuETV5txjf5VZBNEjzYHIaW711thcxoF12R50KB8X6sRTqq3zqGto)
+![0306exploration_2](./static/0306exploration_2.jpg)
 
 太空船的運作可能受到太空天氣的影響
 

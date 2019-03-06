@@ -1,6 +1,6 @@
-##Geomagnetic Storms
+## Geomagnetic Storms
 
-##![215937main_auroralargeGSFC_20080304_HI](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/215937main_auroralargeGSFC_20080304_HI.jpg)
+![0306_geo](./static/0306_geo.jpg) 
 
 (Source/Credits: NASA)
 

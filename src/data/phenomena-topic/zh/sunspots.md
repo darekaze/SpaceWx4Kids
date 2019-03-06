@@ -1,8 +1,8 @@
-##太陽黑子/太陽週期
+## 太陽黑子/太陽週期
 
-太陽黑子是太陽表面上的**陰暗區域**，一般成群出現。它擁有**很強的磁場**，而其**溫度則較其它地區低**。太陽黑子的數量通常用作太陽活動的指標。在太陽週期高峰時，太陽黑子的數量會明顯增加，多達數百。
+太陽黑子是太陽表面上的**陰暗區域**，一般成群出現。它擁有很強的**磁場**，而其**溫度則較其它地區低**。太陽黑子的數量通常用作太陽活動的指標。在太陽週期高峰時，太陽黑子的數量會明顯增加，多達數百。
 
- ![latest_1024_hmiic_0](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/latest_1024_hmiic_0.jpg)
+![0306_sunspot](./static/0306_sunspot.jpg)
 
 太陽黑子
 
@@ -10,11 +10,11 @@
 
 太陽活動是有週期性變化的。**太陽週期**是指大約**十一年**週期性的**太陽黑子數量增加和減少**。每一週期是從太陽活動最低潮時算起。 
 
-![Cycle25_Prediction](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/Cycle25_Prediction.png)
+![0306_solar_cycle](./static/0306_solar_cycle.png)
 
 太陽週期
-
 (資料來源: Solar Cycle Science)
+
 
 參考
 

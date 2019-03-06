@@ -1,6 +1,6 @@
-##電離層
+## 電離層
 
-![4q0o0006344ps83r44p8](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/4q0o0006344ps83r44p8.jpg)
+![0306_ionosphere](./static/0306_ionosphere.jpg)
 
 (資料來源︰國家空間科學中心)
 
@@ -12,8 +12,7 @@
 
 參考資料:
 
-https://scied.ucar.edu/ionosphere
-
-https://kknews.cc/science/r8j69y4.html
+<https://scied.ucar.edu/ionosphere>
+<https://kknews.cc/science/r8j69y4.html>
 
 

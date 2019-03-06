@@ -10,9 +10,10 @@
 | M            | $10^{-5}$ - $10^{-4}$                        |
 | X            | $10^{-4}$ - $10^{-3}$                        |
 
+
 (太陽耀斑等級參考)
 
-![image-20190220163946212](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/image-20190220163946212.png)
+![0306_2003](./static/0306_2003.png)
 
 （圖片來源：NASA)
 
@@ -22,10 +23,7 @@
 
 參考資料：
 
-https://kknews.cc/zh-hk/science/48qjy5g.html
-
-https://www.space.com/23396-scary-halloween-solar-storm-2003-anniversary.html
-
+<https://kknews.cc/zh-hk/science/48qjy5g.html>
+<https://www.space.com/23396-scary-halloween-solar-storm-2003-anniversary.html>
 <https://www.nasa.gov/topics/solarsystem/features/halloween_storms.html>
-
-https://www.nasa.gov/feature/remembering-the-historic-solar-storms-of-2003
+<https://www.nasa.gov/feature/remembering-the-historic-solar-storms-of-2003>

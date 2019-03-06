@@ -1,12 +1,12 @@
-##日冕物質抛射
+## 日冕物質抛射
 
-![Magnificent_CME_Erupts_on_the_Sun_-_August_31](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg)
+![0306_cme](./static/0306_cme.jpg)
 
 (資料來源︰Solar Dynamics Observatory )
 
 日冕物質拋射基本上是一團由高能粒子組成、磁化的電離氣體雲，從太陽以高速向外散播。
 
-## ![A CME as seen by SOHO/LASCO](https://lh3.googleusercontent.com/43iREXLXCRr-tERFCOpHEpY7Tt5g8Zg2nwUbZKj3rtBOXWlxsOgT092EFiQYUc2mPz-J9mBXukc9AZpYEGTpxqdgDjXjWLucWKS9soTHWnsC1cv378PvJ6T_Oi0zZ4FnOYWaXylT)
+![0306_CME](./static/0306_CME.gif)
 
 (資料來源︰nasa) 
 

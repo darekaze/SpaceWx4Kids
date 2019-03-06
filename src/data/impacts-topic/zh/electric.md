@@ -1,6 +1,6 @@
-##電力
+## 電力
 
-![img](https://lh6.googleusercontent.com/K9uYyY7W5lSMSALX1yO8aWI4FR6C_3mToPqM_PiCLN0FA-rGpmpxTijDD4O0i8S0QIduWMOAUWFuY8akShnvvov5URLPietCfkyitPWJfzASkzkF1UUGLq_2AlAYcqmLEnjGPyO8)
+![0306_electric](./static/0306_electric.png)
 
 電離層中的巨大電流可引致電線產生感應電流，感應電流的衝擊可能導致大規模**網絡故障**及對**電網組件造成永久損壞**。
 

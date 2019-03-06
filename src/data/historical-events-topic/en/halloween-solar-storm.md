@@ -12,7 +12,7 @@ This solar storm was a massive **X45-class solar storm** which was one of the la
 
 (solar flares classification)
 
-![image-20190220163946212](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/content/temp/image-20190220163946212.png)
+![0306_2003](./static/0306_2003.png)
 
 <p align="center">A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the sun early on 28 October, 2003.
 <p align="center">(Source/Credits: NASA/SOHO)
@@ -23,8 +23,6 @@ During the solar storm, **airlines** that usually flew over the pole diverted th
 
 reference:
 
-https://www.space.com/23396-scary-halloween-solar-storm-2003-anniversary.html
-
+<https://www.space.com/23396-scary-halloween-solar-storm-2003-anniversary.html>
 <https://www.nasa.gov/topics/solarsystem/features/halloween_storms.html>
-
 <https://www.nasa.gov/feature/remembering-the-historic-solar-storms-of-2003>
