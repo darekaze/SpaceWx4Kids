@@ -1,17 +1,17 @@
 <template>
   <v-card
     dark flat color="transparent"
-    :class="`pb-${cardGap}`"
+    class="px-2"
     :to="$i18nRoute({ name: to })">
     <v-img contain
       :src="require(`@/assets/icons/${img}.png`)"
       transition="scale-transition"
       max-height="270"/>
     <v-card-text
-      class="text-xs-center grey--text text--lighten-3"
+      class="text-xs-center grey--text text--lighten-3 px-0"
       :class="{
         'display-1': $vuetify.breakpoint.smAndUp,
-        'headline': $vuetify.breakpoint.xsOnly,
+        'title': $vuetify.breakpoint.xsOnly,
         'py-2': this.mobile,
         'py-3': !this.mobile,
       }">
@@ -32,9 +32,6 @@ export default {
   computed: {
     mobile() {
       return this.$vuetify.breakpoint.xsOnly;
-    },
-    cardGap() {
-      return this.mobile ? 2 : 4;
     },
   },
 };

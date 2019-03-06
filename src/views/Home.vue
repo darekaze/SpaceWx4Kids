@@ -10,7 +10,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <v-container py-0 fill-height>
+    <v-container pt-0>
       <v-layout row fill-height justify-space-around>
         <v-layout column justify-center>
           <topic-card :title="$t('alerts')" img="nh_alert" to="alerts"/>
@@ -18,21 +18,19 @@
         <v-flex xs4>
           <v-layout column justify-center>
             <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
-            <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events"/>
+            <topic-card :title="$t('sun')" img="nh_sun" to="sun"/>
           </v-layout>
         </v-flex>
         <v-layout column justify-center>
           <topic-card :title="$t('impacts')" img="nh_impact" to="impacts"/>
         </v-layout>
       </v-layout>
-    </v-container>
-    <v-container pa-0 fill-height>
       <v-layout row justify-space-around>
         <v-flex xs5>
           <topic-card :title="$t('earth')" img="nh_earth" to="earth"/>
         </v-flex>
-        <v-flex xs3>
-          <topic-card :title="$t('sun')" img="nh_sun" to="sun"/>
+        <v-flex xs5>
+          <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events"/>
         </v-flex>
       </v-layout>
     </v-container>
