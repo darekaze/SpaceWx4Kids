@@ -3,6 +3,10 @@
     <v-container grid-list-md fill-height pt-3>
       <div class="white--text display-1">Under Development, Coming Soon...</div>
       <!-- TODO: Add games and unity loader -->
+      <v-btn dark color="blue"
+        :to="$i18nRoute({ name: 'gameplay', params: { game: 'xxx' } })">
+        Go to game
+      </v-btn>
     </v-container>
   </sub-page>
 </template>
