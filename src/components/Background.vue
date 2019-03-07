@@ -7,11 +7,10 @@
 <script>
 export default {
   computed: {
-    atHome() {
-      return /^\/\w+\/?$/.test(this.$route.path); // match locale route
+    atHome() { // match locale route
+      return /^\/\w+\/?$/.test(this.$route.path);
     },
-    bg() {
-      // Switch bg-img at HomeDesktop, otherwise don't
+    bg() { // Switch bg-img at HomeDesktop, otherwise don't
       const homeAndDesktop = this.atHome && this.$vuetify.breakpoint.mdAndUp;
       return `space-bg-${homeAndDesktop ? 'special' : 'normal'}`;
     },
@@ -30,11 +29,11 @@ export default {
     min-height: calc(100vh - 124px);
   }
 
-  &-special { // Need further change
-    background-image: url('../assets/images/index.png');
-    background-repeat: repeat-y;
-    background-size: 100vw auto;
-    min-height: calc(100vh - 124px);
+  &-special { // Need further change, TEMP: Switch to png for no animation
+    background-image: url('../assets/images/index.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 </style>

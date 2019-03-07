@@ -1,6 +1,6 @@
 <template>
-  <v-container grid-list-md pt-3>
-    <v-layout row wrap justify-center>
+  <v-container fill-height grid-list-md pt-3>
+    <v-layout row wrap align-center justify-center>
       <v-flex xs12 sm4
         v-for="(value, key) in impacts" :key="key">
         <impact-card :title="$t(key)" :content="value" :ratio="ratio"/>
