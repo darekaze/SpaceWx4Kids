@@ -1,8 +1,8 @@
 ## 太陽耀斑/無線電通信中斷
 
-![0306_rb1](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/kids_icon/data/phenomena-topic/en/static/0306_rb1.jpg)
+![0306_rb1](./static/0306_rb1.jpg)
 
-![0306_rb2](/Volumes/Public/Ronald%20temp/%5Bdev%5Dspacewx/kids_icon/data/phenomena-topic/en/static/0306_rb2.jpg)
+![0306_rb2](./static/0306_rb2.jpg)
 
 ![0306_rb3]()
 
@@ -16,4 +16,3 @@
 (資料來源︰Space Environment Center, Boulder, CO, National Oceanic and Atmospheric Administration, US Dept. of Commerce](http://www.sec.noaa.gov/))
 
 當強烈**X射線**的電離作用擾亂地球的**電離層**時，所產生的訊號閃爍（意即噪音、畸變失真和衰減）會干擾無線電通信，導致**無線電通信中斷**。
-

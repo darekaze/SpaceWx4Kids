@@ -39,8 +39,7 @@ export default {
     async updateArticle() {
       const { currentLanguage: lang } = Trans;
       const topic = this.$route.params.topic || this.$route.name;
-      const category = this.$route.name;
-      // const { category } = this;
+      const { category } = this;
       try {
         this.article = await import(`@/data/${category}/${lang}/${topic}.md`);
       } catch (error) {

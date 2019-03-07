@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import impacts from '@/data/impacts-topic/impacts.json';
+import impacts from '@/data/impacts/impacts.json';
 
 export default {
   name: 'impacts-index-page',

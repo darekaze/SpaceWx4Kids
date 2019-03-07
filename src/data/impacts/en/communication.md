@@ -1,4 +1,4 @@
-## Communication
+# Communication
 
 ![0306_communication](./static/0306_communication.png)
 

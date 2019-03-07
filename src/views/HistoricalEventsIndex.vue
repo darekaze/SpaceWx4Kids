@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import events from '@/data/historical-events-topic/events.json';
+import events from '@/data/historical-events/events.json';
 
 export default {
   name: 'historical-events-page',
