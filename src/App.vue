@@ -23,3 +23,7 @@ export default {
   },
 };
 </script>
+
+<style>
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+</style>

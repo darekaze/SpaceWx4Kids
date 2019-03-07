@@ -1,5 +1,4 @@
 <template>
-  <!-- TODO: add route with params -->
   <v-card
     dark flat color="transparent"
     class="round"

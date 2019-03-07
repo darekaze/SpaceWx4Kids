@@ -1,12 +1,12 @@
-#**太陽**
+# **太陽**
 
 太陽是在太陽系中心的恆星，它驅動地球大氣的循環，亦是地球能源的主要源頭。它源源不絕地給予植物能量以製造食物和氧氣，從而孕育地球上的生命。太陽同時亦會引致大部分的太空天氣現象。
 
-###結構 
+### 結構 
 
-![struct_sun](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/struct_sun.jpg)
+![http://www.phys.ncku.edu.tw/~astrolab/e_book/sun/images/struct_sun.jpg](./static/0306_sun2.jpg)
 
-(http://www.phys.ncku.edu.tw/~astrolab/e_book/sun/images/struct_sun.jpg)
+
 
 | 半徑             | ~ 696,000公里 (約地球半徑的109倍)               |
 | :------------ | :--- |
@@ -20,5 +20,4 @@
 資料來源: 
 
 美國太空總署NASA (<https://www.nasa.gov/>)
-
 美國海洋和大氣管理局空間天氣預報中心 (https://www.swpc.noaa.gov/)

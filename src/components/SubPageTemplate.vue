@@ -26,7 +26,7 @@ export default {
   margin-right: 12px;
 }
 .titl {
-  font-family: 'Saira Extra Condensed','Noto Sans TC', sans-serif !important;
+  font-family: 'Saira Extra Condensed','cwTeXYen', sans-serif !important;
   font-size: 56px !important;
 }
 

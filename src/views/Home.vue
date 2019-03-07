@@ -28,10 +28,10 @@
         </v-layout>
       </v-layout>
       <v-layout row justify-space-around>
-        <v-flex xs5>
+        <v-flex xs4>
           <topic-card :title="$t('earth')" img="nh_earth" to="earth"/>
         </v-flex>
-        <v-flex xs5>
+        <v-flex xs4>
           <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events"/>
         </v-flex>
       </v-layout>

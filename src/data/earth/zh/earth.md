@@ -1,18 +1,16 @@
  
 
-#**地球**
+# **地球**
 
-![Picture2](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/Picture2.png)
+![0306_earth](./static/0306_earth.png)
 
 (圖片來源: 弗雷德里克·盧根斯, 艾華·塔巴克 / 大氣層（第11版）)
 
 地球是第三個最接近太陽的行星。它是唯一已知有大量液態水的行星。
 
-###結構 
+### 結構 
 
-
-
-![Screenshot 2019-02-15 at 3.30.01 PM](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/Screenshot 2019-02-15 at 3.30.01 PM.png)
+![0306_earth3](./static/0306_earth3.png)
 
 (圖片來源: Roger Harris/SPL)
 

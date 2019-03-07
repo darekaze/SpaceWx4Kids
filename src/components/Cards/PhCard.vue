@@ -1,5 +1,4 @@
 <template>
-  <!-- TODO: add route with params -->
   <v-card
     dark flat color="transparent"
     class="round"
@@ -43,7 +42,7 @@ export default {
   border-radius: 4px;
 }
 .custom-title {
-  font-family: 'Indie Flower', 'Noto Sans TC', cursive !important;
+  font-family: 'Indie Flower', 'cwTeXYen', cursive !important;
   background: #30505c60;
   border-radius: 4px;
 }

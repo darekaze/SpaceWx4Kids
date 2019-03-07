@@ -1,10 +1,10 @@
-#**The Sun**
+# **The Sun**
 
 The Sun is a star at the centre of the Solar System. It drives the circulation of the Earth’s atmosphere, and is also the primary energy source of the Earth.  It ceaselessly supplies energy to the plants, providing food and oxygen for nurturing life on the Earth.  Meanwhile, the Sun is also driving majority of space weather phenomena.
 
-###Structure
+### Structure
 
-![Picture1](/Volumes/Public/Ronald temp/[dev]spacewx/content/temp/Picture1.png)
+![0306_sun](./static/0306_sun.png)
 
 
 | Radius                        | ~ 696,000 km (about 109 times Earth’s radius)                |
@@ -18,8 +18,7 @@ The Sun is a star at the centre of the Solar System. It drives the circulation o
 
 
 
-source :
+Source :
 
-NASA (<https://www.nasa.gov/>)
-
+NASA (https://www.nasa.gov/)
 NOAA Space Weather Prediction Center (https://www.swpc.noaa.gov/)
