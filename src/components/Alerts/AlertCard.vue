@@ -41,7 +41,11 @@
                   <span>{{ $t('show-details') }}</span>
                 </v-tooltip>
                 <v-spacer/>
-                <v-btn flat color="indigo">{{ $t('learn-more') }}</v-btn>
+                <v-btn
+                  flat color="indigo"
+                  :to="$i18nRoute({ name: 'phenomena-topic', params: { topic: info.link } })">
+                  {{ $t('learn-more') }}
+                </v-btn>
               </v-card-actions>
             </v-flex>
           </v-layout>
