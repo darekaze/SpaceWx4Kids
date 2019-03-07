@@ -1,4 +1,18 @@
 /* eslint-disable no-unused-vars */
+const md = require('markdown-it')({
+  html: true,
+  linkify: true,
+  typographer: true,
+})
+  .use(require('markdown-it-link-attributes'), {
+    attrs: {
+      target: '_blank',
+      rel: 'noopener noreferrer nofollow',
+    },
+  })
+  .use(require('markdown-it-ins'))
+  .use(require('markdown-it-sup'));
+
 const subDirName = 'r2dev/spacewx4kids'; // Remember to change you site directory!!
 
 module.exports = {
@@ -24,6 +38,7 @@ module.exports = {
         vue: {
           root: 'markdown-body',
         },
+        markdown: body => md.render(body),
       }));
   },
 };
