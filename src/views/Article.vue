@@ -48,6 +48,14 @@ export default {
       }
     },
   },
+  watch: {
+    '$route.params.lang': {
+      immediate: true,
+      handler() {
+        this.updateArticle();
+      },
+    },
+  },
 };
 </script>
 
