@@ -41,9 +41,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 .custom-title {
-  font-family: 'Indie Flower', 'Noto Sans TC', cursive !important;
-  background: #2f4e5a80;
-  border-radius: 4px;
+  font-family: 'Indie Flower', 'cwTeXYen', cursive !important;
   line-height: 30px;
 }
 </style>

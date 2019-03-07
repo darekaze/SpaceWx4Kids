@@ -47,6 +47,6 @@ export default {
   border-radius: 8px;
 }
 .c-font {
-  font-family: 'Saira Extra Condensed', 'Noto Sans TC', sans-serif !important;
+  font-family: 'Saira Extra Condensed', 'cwTeXYen', sans-serif !important;
 }
 </style>
