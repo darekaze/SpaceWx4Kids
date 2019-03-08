@@ -35,6 +35,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "frontmatter-markdown-loader": "^1.6.0",
+    "gulp-webserver": "^0.9.1",
     "markdown-it": "^8.4.2",
     "markdown-it-ins": "^2.0.0",
     "markdown-it-link-attributes": "^2.1.0",
