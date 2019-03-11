@@ -1,8 +1,7 @@
 ## Earth's Magnetosphere
 
 ![0306_mag](./static/0306_mag.gif)
-
-(Source/Credits: nasa)
+*(Source/Credits: nasa)*
 
 The Earth’s magnetosphere acts as a giant bubble of magnetism to protect us from the sun’s **ultraviolet radiation**.
 
@@ -11,13 +10,11 @@ The magnetosphere is mainly cause by the **differences in temperature, pressure 
 Apart from the earth, other planets also have their magnetosphere:
 
 ![0306_mag_@](./static/0306_mag_@.jpg)
+*Jupiter's Magnetosphere (Source/Credits: [Jupiter's Magnetosphere](http://planetaryexploration-net.planetpatriot.net/jupiter/io/jupiter%27s_magnetosphere.html))*
 
-Jupiter's Magnetosphere
-(Source/Credits: <http://planetaryexploration-net.planetpatriot.net/jupiter/io/jupiter%27s_magnetosphere.html>)
+---
 
+References
 
-
-References:
-
-http://www.physics.org/article-questions.asp?id=64
+- http://www.physics.org/article-questions.asp?id=64
 
