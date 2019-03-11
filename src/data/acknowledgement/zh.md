@@ -19,6 +19,6 @@
 
 "Dark Fireworks on the Sun - NASA Science News of 11 July 2011", by Dr. Tony Phillips, The National Aeronautics and Space Administration (NASA).
 
-"'Dark Fireworks' Seen on Sun - Blast as Big as Ten Earths", by Dave Mosher, National Geographic News, 14 July 2011.
+"Dark Fireworks Seen on Sun - Blast as Big as Ten Earths", by Dave Mosher, National Geographic News, 14 July 2011.
 
 ICRP-132, Radiological Protection from Cosmic Radiation in Aviation, 2016
