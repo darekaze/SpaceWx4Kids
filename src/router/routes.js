@@ -92,7 +92,9 @@ export default [
       },
       {
         path: '*',
-        redirect: `/${Trans.currentLanguage}/`,
+        redirect() {
+          return `/${Trans.currentLanguage}/`;
+        },
       },
     ],
   },
