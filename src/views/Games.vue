@@ -1,7 +1,7 @@
 <template>
   <sub-page :title="$t('games')" icon="icons/ph_icon.svg">
     <v-container grid-list-md fill-height pt-3>
-      <div class="white--text display-1">Under Development, Coming Soon...</div>
+      <div class="white--text display-1">Under Development, Beta version: </div>
       <!-- TODO: Add games and unity loader -->
       <v-btn dark color="blue"
         :to="$i18nRoute({ name: 'gameplay', params: { game: 'xxx' } })">

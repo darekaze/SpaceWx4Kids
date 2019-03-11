@@ -1,8 +1,9 @@
 <template>
   <v-container>
+    <!-- TODO: Add resize canvas on viewport change -->
     <unity
       src="static/Build/responsive_webGL.json"
-      width="1000" height="600"
+      width="100%" height="100%"
       unityLoader="static/Build/UnityLoader.js"/>
   </v-container>
 </template>
@@ -17,3 +18,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.unity {
+  .unity-container {
+    margin: auto;
+    color: red;
+  }
+}
+</style>
