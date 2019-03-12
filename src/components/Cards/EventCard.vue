@@ -17,11 +17,7 @@
                 {{ content.year }}
               </span>
             </div>
-            <h3 class="font-weight-medium"
-              :class="{
-                title: $vuetify.breakpoint.mdAndDown,
-                headline: $vuetify.breakpoint.lgAndUp,
-              }">
+            <h3 class="title font-weight-medium">
               {{ title }}
             </h3>
           </v-layout>
