@@ -59,7 +59,7 @@ export default {
   "zh": {
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "有趣的歷史事件",
+    "historical-events": "重大的歷史事件",
     "alerts": "警報",
     "games": "小遊戲"
   }
