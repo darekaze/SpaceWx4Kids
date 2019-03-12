@@ -45,12 +45,11 @@ export default {
   },
   methods: {
     getConditionInfo(code) {
-      const { Scale, Text } = this.getCurrentDataByCode(code);
-      const sc = parseInt(Scale, 10);
-      return {
-        scale: sc,
-        message: sc ? `${code}${sc} / ${Text}` : 'No Alert',
-      };
+      const scale = parseInt(this.getCurrentDataByCode(code).Scale, 10);
+      const message = scale
+        ? `${code}${scale} ${this.$t('alert-msg')[code]}`
+        : this.$t('no-alert');
+      return { scale, message };
     },
   },
   async beforeMount() {
@@ -73,6 +72,12 @@ export default {
     "alerts": "Alerts",
     "updated": "Updated at",
     "source": "Source: Space Weather Prediction Center",
+    "no-alert": "No Alert",
+    "alert-msg": {
+      "R": "Radio Blackout in force",
+      "S": "Solar Radiation Storm in force",
+      "G": "Geomagnetic Storm in force"
+    },
     "alertsInfo": {
       "R": {
         "name": "Radio Blackout",
@@ -101,6 +106,12 @@ export default {
     "alerts": "警報",
     "updated": "更新時間：",
     "source": "資料來源：美國太空天氣預報中心",
+    "no-alert": "無警報",
+    "alert-msg": {
+      "R": "級別無綫電通訊中斷正在生效",
+      "S": "級別太陽輻射風暴正在生效",
+      "G": "級別地磁風暴正在生效"
+    },
     "alertsInfo": {
       "R": {
         "name": "無線電通信中斷",
