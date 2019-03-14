@@ -1,4 +1,4 @@
-# satellite
+# Satellite
 
 ![0306_satellite](./static/0306_satellite.png)
 
