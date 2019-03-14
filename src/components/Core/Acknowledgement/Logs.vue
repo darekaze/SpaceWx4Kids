@@ -4,8 +4,8 @@
       Acknowledgement
     </v-card-title>
 
-    <v-card-text>
-      Thank you for the following xxxx...
+    <v-card-text v-if="ack">
+      <div v-html="ack.html"/>
     </v-card-text>
 
     <v-divider></v-divider>
@@ -18,3 +18,30 @@
     </v-card-actions>
   </v-card>
 </template>
+
+<script>
+import { Trans } from '@/plugins/i18n';
+
+export default {
+  data: () => ({
+    ack: null,
+  }),
+  beforeMount() {
+    this.showAck();
+  },
+  methods: {
+    async showAck() {
+      const { currentLanguage: lang } = Trans;
+      this.ack = await import(`@/data/acknowledgement/${lang}.md`);
+    },
+  },
+  watch: {
+    '$route.params.lang': {
+      immediate: true,
+      handler() {
+        this.showAck();
+      },
+    },
+  },
+};
+</script>

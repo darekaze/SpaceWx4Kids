@@ -86,8 +86,15 @@ export default [
         component: load('Games'),
       },
       {
+        path: 'games/:game',
+        name: 'gameplay',
+        component: load('Gameplay'),
+      },
+      {
         path: '*',
-        redirect: `/${Trans.currentLanguage}/`,
+        redirect() {
+          return `/${Trans.currentLanguage}/`;
+        },
       },
     ],
   },

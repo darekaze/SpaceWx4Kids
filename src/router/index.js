@@ -4,6 +4,8 @@ import routes from './routes';
 
 Vue.use(Router);
 
+window.history.scrollRestoration = 'manual';
+
 export default new Router({
   routes,
   // mode: 'history', // HACK
