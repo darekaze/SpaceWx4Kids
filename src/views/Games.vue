@@ -1,13 +1,8 @@
 <template>
-  <sub-page :title="$t('games')" icon="icons/ph_icon.svg">
-    <v-container grid-list-md fill-height pt-3>
-      <div class="white--text display-1">Under Development, Beta version: </div>
-      <!-- TODO: Add games and unity loader -->
-      <v-btn dark color="blue"
-        :to="$i18nRoute({ name: 'gameplay', params: { game: 'xxx' } })">
-        Go to game
-      </v-btn>
-    </v-container>
+  <sub-page :title="$t('games')" icon="icons/game_icon.png">
+    <v-scale-transition mode="out-in">
+      <router-view/>
+    </v-scale-transition>
   </sub-page>
 </template>
 

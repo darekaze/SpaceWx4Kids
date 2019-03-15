@@ -1,0 +1,34 @@
+[
+  {
+    "title": {
+      "en": "Game 1",
+      "zh": "頭腦風暴"
+    },
+    "link": "g1",
+    "image": "geomagnetic_storm.jpg"
+  },
+  {
+    "title": {
+      "en": "Game 2",
+      "zh": "數字風暴"
+    },
+    "link": "g2",
+    "image": "solar_radiation_storm.jpg"
+  },
+  {
+    "title": {
+      "en": "Game 2",
+      "zh": "數字風暴"
+    },
+    "link": "g3",
+    "image": "solar_radiation_storm.jpg"
+  },
+  {
+    "title": {
+      "en": "Game 2",
+      "zh": "數字風暴"
+    },
+    "link": "g4",
+    "image": "solar_radiation_storm.jpg"
+  }
+]

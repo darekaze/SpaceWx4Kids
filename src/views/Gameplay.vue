@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container v-if="$vuetify.breakpoint.smAndUp">
     <!-- TODO: Add resize canvas on viewport change -->
     <unity
       src="static/Build/responsive_webGL.json"
