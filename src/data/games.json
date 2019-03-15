@@ -1,34 +1,34 @@
 [
   {
     "title": {
-      "en": "Game 1",
+      "en": "Brain Storm Quiz",
       "zh": "頭腦風暴"
     },
-    "link": "g1",
+    "link": "quiz",
     "image": "geomagnetic_storm.jpg"
   },
   {
     "title": {
-      "en": "Game 2",
-      "zh": "數字風暴"
+      "en": "Space Spelling",
+      "zh": "太空詞語"
     },
-    "link": "g2",
-    "image": "solar_radiation_storm.jpg"
+    "link": "spelling",
+    "image": "radio_blackout.jpg"
   },
   {
     "title": {
-      "en": "Game 2",
-      "zh": "數字風暴"
+      "en": "Let's Puzzle!",
+      "zh": "拼圖樂"
     },
-    "link": "g3",
-    "image": "solar_radiation_storm.jpg"
+    "link": "puzzle",
+    "image": "phenomena/ionosphere.jpg"
   },
   {
     "title": {
-      "en": "Game 2",
-      "zh": "數字風暴"
+      "en": "The Numbers",
+      "zh": "數字風波"
     },
-    "link": "g4",
+    "link": "numbers",
     "image": "solar_radiation_storm.jpg"
   }
 ]
