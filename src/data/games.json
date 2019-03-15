@@ -1,0 +1,34 @@
+[
+  {
+    "title": {
+      "en": "Brain Storm Quiz",
+      "zh": "頭腦風暴"
+    },
+    "link": "quiz",
+    "image": "geomagnetic_storm.jpg"
+  },
+  {
+    "title": {
+      "en": "Space Spelling",
+      "zh": "太空詞語"
+    },
+    "link": "spelling",
+    "image": "radio_blackout.jpg"
+  },
+  {
+    "title": {
+      "en": "Let's Puzzle!",
+      "zh": "拼圖樂"
+    },
+    "link": "puzzle",
+    "image": "phenomena/ionosphere.jpg"
+  },
+  {
+    "title": {
+      "en": "The Numbers",
+      "zh": "數字風波"
+    },
+    "link": "numbers",
+    "image": "solar_radiation_storm.jpg"
+  }
+]
