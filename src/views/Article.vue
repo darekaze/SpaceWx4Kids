@@ -5,7 +5,7 @@
         <v-btn
           dark flat color="blue"
           :to="$i18nRoute({ name: parent })">
-          <v-icon class="pr-2">keyboard_arrow_left</v-icon>Back
+          <v-icon class="pr-2">keyboard_arrow_left</v-icon>{{ $t('back') }}
         </v-btn>
       </v-card-title>
       <v-card-text class="pt-0 pb-5" v-if="article">
