@@ -39,8 +39,8 @@
     "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
   },
-  "solar-radiation-storm": {
-    "link": "solar-radiation-storm",
+  "solar-radiation-storms": {
+    "link": "solar-radiation-storms",
     "image": "solar_radiation_storm.jpg"
   }
 }

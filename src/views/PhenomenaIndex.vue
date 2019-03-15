@@ -37,7 +37,7 @@ export default {
     "ionosphere": "Ionosphere",
     "radiation-belt": "Radiation Belt",
     "radio-blackouts": "Radio Blackouts",
-    "solar-radiation-storm": "Solar Radiation Storm"
+    "solar-radiation-storms": "Solar Radiation Storm"
   },
   "zh": {
     "aurora": "極光",
@@ -50,7 +50,7 @@ export default {
     "ionosphere": "電離層",
     "radiation-belt": "輻射帶",
     "radio-blackouts": "太陽耀斑/無線電通信中斷",
-    "solar-radiation-storm": "太陽輻射風暴"
+    "solar-radiation-storms": "太陽輻射風暴"
   }
 }
 </i18n>

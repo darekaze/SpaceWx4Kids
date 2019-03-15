@@ -91,7 +91,7 @@ export default {
         "description": "When the influx of radiation particle is so intense that it overwhelms the magnetosphere, the charged particles are able to reach deeper down into the atmosphere at the poles, posing threats to astronauts in space, passengers and crews on polar flights and damage electronics on satellites and spacecrafts on the way.",
         "image": "solar_radiation_storm.jpg",
         "code": "S",
-        "link": "solar-radiation-storm"
+        "link": "solar-radiation-storms"
       },
       "G": {
         "name": "Geomagnetic Storm",
@@ -118,21 +118,21 @@ export default {
         "description": "太陽釋放出來的紫外線輻射和X-射線會把地球上被陽光照射的一面離子化，以至當無線電波通過該區域時，產生大量的能量損失並擾亂地球的電離層，導致無線電通信中斷。",
         "image": "radio_blackout.jpg",
         "code": "R",
-        "link": "radio-blackout"
+        "link": "radio-blackouts"
       },
       "S": {
         "name": "太陽輻射風暴",
         "description": "當大量來自太陽的高能量質子輻射流入磁力圈，到磁力圈不能承受時，圈內帶電荷粒子便能進入大氣兩極，途中對衛星、太空人、極地航班的乘客和機組人員或太空船的電子組件等造成影響。",
         "image": "solar_radiation_storm.jpg",
         "code": "S",
-        "link": "solar-radiation-storm"
+        "link": "solar-radiation-storms"
       },
       "G": {
         "name": "地磁風暴",
         "description": "日冕物質拋射的等離子體在地球磁層中產生強烈的電流，扭曲地球磁場，令大氣的密度會增加，影響低地球軌道上的衛星軌道、無線電信號路徑或GPS系統的性能。",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
-        "link": "geomagnetic-storm"
+        "link": "geomagnetic-storms"
       }
     }
   }
