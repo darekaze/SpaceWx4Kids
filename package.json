@@ -5,49 +5,45 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11",
-    "register-service-worker": "^1.5.2",
-    "vue": "^2.6.8",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.9",
     "vue-axios": "^2.1.4",
     "vue-i18n": "^8.9.0",
-    "vue-router": "^3.0.1",
+    "vue-router": "^3.0.2",
     "vue-status-indicator": "^1.1.1",
     "vue-unity-webgl": "^1.2.0",
-    "vuetify": "^1.5.5",
-    "vuex": "^3.0.1"
+    "vuetify": "^1.5.6",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-plugin-pwa": "^3.5.0",
-    "@vue/cli-plugin-unit-jest": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-plugin-pwa": "^3.5.1",
+    "@vue/cli-service": "^3.5.1",
     "@vue/eslint-config-airbnb": "^4.0.0",
-    "@vue/test-utils": "^1.0.0-beta.20",
-    "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.3.1",
+    "babel-jest": "^24.5.0",
     "eslint": "^5.15.1",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-vue": "^5.2.2",
     "frontmatter-markdown-loader": "^1.6.0",
     "markdown-it": "^8.4.2",
     "markdown-it-ins": "^2.0.0",
     "markdown-it-link-attributes": "^2.1.0",
     "markdown-it-sup": "^1.0.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
+    "stylus-loader": "^3.0.2",
     "vue-cli-plugin-i18n": "^0.5.2",
-    "vue-cli-plugin-vuetify": "^0.4.6",
-    "vue-template-compiler": "^2.6.8",
-    "vuetify-loader": "^1.0.5"
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.9",
+    "vuetify-loader": "^1.2.1"
   },
   "eslintConfig": {
     "root": true,
@@ -73,27 +69,9 @@
     "last 2 versions",
     "not ie <= 10"
   ],
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.vue$": "vue-jest",
-      ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
-    },
-    "snapshotSerializers": [
-      "jest-serializer-vue"
-    ],
-    "testMatch": [
-      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
-    ],
-    "testURL": "http://localhost/"
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": true,
+    "singleQuote": true
   }
 }
