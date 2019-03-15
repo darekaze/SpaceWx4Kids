@@ -98,7 +98,7 @@ export default {
   },
   "zh": {
     "show-details": "顯示細節",
-    "learn-more": "瞭解更多"
+    "learn-more": "了解更多"
   }
 }
 </i18n>

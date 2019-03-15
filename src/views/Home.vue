@@ -62,7 +62,7 @@ export default {
     "logo": "logo_zh",
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "重大的歷史事件",
+    "historical-events": "重大歷史事件",
     "alerts": "警報",
     "sun": "太陽",
     "earth": "地球"
