@@ -105,7 +105,7 @@ export default {
     }
   },
   "zh": {
-    "alerts": "警報",
+    "alerts": "預測與警報",
     "updated": "更新時間：",
     "no-alert": "無警報",
     "alert-msg": {
