@@ -2,6 +2,9 @@
   <v-hover>
     <v-card
       slot-scope="{ hover }"
+      target="_blank"
+      rel="noopener noreferrer"
+      :href="info.url"
       :class="`elevation-${hover ? 8 : 0}`"
       class="round">
       <v-img
