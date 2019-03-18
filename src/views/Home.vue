@@ -12,27 +12,24 @@
     </v-container>
     <v-container pt-0>
       <v-layout row fill-height justify-space-around>
-        <v-layout column justify-center>
-          <topic-card :title="$t('alerts')" img="nh_alert" to="alerts"/>
-        </v-layout>
         <v-flex xs4>
-          <v-layout column justify-center>
-            <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
-            <div class="pt-4">
-              <topic-card :title="$t('sun')" img="nh_sun" to="sun"/>
-            </div>
+          <v-layout column fill-height justify-center>
+            <topic-card :title="$t('alerts')" img="nh_alert" to="alerts"/>
+            <topic-card :title="$t('monitor')" img="nh_monitor" to="monitor" class="pt-4"/>
           </v-layout>
         </v-flex>
-        <v-layout column justify-center>
-          <topic-card :title="$t('impacts')" img="nh_impact" to="impacts"/>
-        </v-layout>
-      </v-layout>
-      <v-layout row justify-space-around>
         <v-flex xs4>
-          <topic-card :title="$t('earth')" img="nh_earth" to="earth"/>
+          <v-layout column fill-height justify-center>
+            <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
+            <topic-card :title="$t('sun')" img="nh_sun" to="sun" class="pt-4"/>
+            <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events" class="pt-4"/>
+          </v-layout>
         </v-flex>
         <v-flex xs4>
-          <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events"/>
+          <v-layout column fill-height justify-center>
+            <topic-card :title="$t('impacts')" img="nh_impact" to="impacts"/>
+            <topic-card :title="$t('earth')" img="nh_earth" to="earth" class="pt-4"/>
+          </v-layout>
         </v-flex>
       </v-layout>
     </v-container>
@@ -55,6 +52,7 @@ export default {
     "impacts": "Impacts",
     "historical-events": "Historical Events",
     "alerts": "Alerts",
+    "monitor": "Monitor",
     "sun": "Sun",
     "earth": "Earth"
   },
@@ -62,8 +60,9 @@ export default {
     "logo": "logo_zh",
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "重大歷史事件",
-    "alerts": "警報",
+    "historical-events": "歷史事件",
+    "alerts": "預測與警報",
+    "monitor": "監測",
     "sun": "太陽",
     "earth": "地球"
   }

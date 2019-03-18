@@ -8,7 +8,7 @@
       transition="scale-transition"
       max-height="220"/>
     <v-card-text
-      class="text-xs-center grey--text text--lighten-3 px-0"
+      class="grey--text text--lighten-3 px-0"
       :class="{
         'display-1': $vuetify.breakpoint.smAndUp,
         'title': $vuetify.breakpoint.xsOnly,
