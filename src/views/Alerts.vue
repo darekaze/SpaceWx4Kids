@@ -1,9 +1,14 @@
 <template>
   <sub-page :title="$t('alerts')" icon="icons/alert_icon.png">
     <v-container v-if="isInit">
-      <v-layout column fill-height justify-center>
-        <v-flex xs12 py-2
-          v-for="(value, key) in $t('alertsInfo')" :key="key">
+      <v-layout py-2>
+        <v-flex>
+          <ChinaLink />
+        </v-flex>
+      </v-layout>
+      <v-layout py-2
+        v-for="(value, key) in $t('alertsInfo')" :key="key">
+        <v-flex>
           <alert-card
             :info="value"
             :condition="getConditionInfo(key)"/>
@@ -12,9 +17,6 @@
       <div class="white--text text-xs-right">
         <div class="subheading">
           {{ `${$t('updated')} ${dateTime}` }}
-        </div>
-        <div class="font-italic">
-          ({{ $t('source') }})
         </div>
       </div>
     </v-container>
@@ -28,6 +30,7 @@ export default {
   name: 'alerts-page',
   components: {
     SubPage: () => import('@/components/SubPageTemplate.vue'),
+    ChinaLink: () => import('@/components/Alerts/ChinaLink.vue'),
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
   },
   computed: {
@@ -71,7 +74,6 @@ export default {
   "en": {
     "alerts": "Alerts",
     "updated": "Updated at",
-    "source": "Source: Space Weather Prediction Center",
     "no-alert": "No Alert",
     "alert-msg": {
       "R": "Radio Blackout in force",
@@ -79,33 +81,32 @@ export default {
       "G": "Geomagnetic Storm in force"
     },
     "alertsInfo": {
-      "R": {
-        "name": "Radio Blackout",
-        "description": "X-ray and Extreme Ultra Violet radiation from the sun would ionize the sunlit side of Earth, leading to large amount of energy lost as radio waves pass through this region,and cause radio blackout. ",
-        "image": "radio_blackout.jpg",
-        "code": "R",
-        "link": "radio-blackouts"
+      "G": {
+        "name": "Geomagnetic Storm",
+        "description": "The Earth's geomagnetic field is distorted due to the strong solar wind. Through electromagnetic induction, transient electric surges can damage transformers, electronic instruments and navigation equipment.",
+        "image": "geomagnetic_storm.jpg",
+        "code": "G",
+        "link": "geomagnetic-storms"
       },
       "S": {
         "name": "Solar Radiation Storm",
-        "description": "When the influx of radiation particle is so intense that it overwhelms the magnetosphere, the charged particles are able to reach deeper down into the atmosphere at the poles, posing threats to astronauts in space, passengers and crews on polar flights and damage electronics on satellites and spacecrafts on the way.",
+        "description": "Streams of energetic particles and plasma pose threats to astronauts in space and to passengers and crews on polar flights.",
         "image": "solar_radiation_storm.jpg",
         "code": "S",
         "link": "solar-radiation-storms"
       },
-      "G": {
-        "name": "Geomagnetic Storm",
-        "description": "Coronal mass ejections deposit energy and result in intense currents in the Earth’s magnetosphere. The density of the atmosphere would be inceased. It could cause extra drag on satellites in low-earth orbit, modify the radio signals path or affect the performance of GPS systems.",
-        "image": "geomagnetic_storm.jpg",
-        "code": "G",
-        "link": "geomagnetic-storms"
+      "R": {
+        "name": "Radio Blackout",
+        "description": "Intense X-rays with ionizing power upset the Earth's ionosphere, producing signal scintillations (which mean noise, distortion and attenuation) and disrupting radio communication.",
+        "image": "radio_blackout.jpg",
+        "code": "R",
+        "link": "radio-blackouts"
       }
     }
   },
   "zh": {
-    "alerts": "警報",
+    "alerts": "預測與警報",
     "updated": "更新時間：",
-    "source": "資料來源：美國太空天氣預報中心",
     "no-alert": "無警報",
     "alert-msg": {
       "R": "級別無綫電通訊中斷正在生效",
@@ -113,26 +114,26 @@ export default {
       "G": "級別地磁風暴正在生效"
     },
     "alertsInfo": {
-      "R": {
-        "name": "無線電通信中斷",
-        "description": "太陽釋放出來的紫外線輻射和X-射線會把地球上被陽光照射的一面離子化，以至當無線電波通過該區域時，產生大量的能量損失並擾亂地球的電離層，導致無線電通信中斷。",
-        "image": "radio_blackout.jpg",
-        "code": "R",
-        "link": "radio-blackouts"
+      "G": {
+        "name": "地磁風暴",
+        "description": "強烈的太陽風扭曲地球磁場。由於電磁感應產生瞬間電流猛烈波動，能損毀變壓器、電子儀器和導航設備。",
+        "image": "geomagnetic_storm.jpg",
+        "code": "G",
+        "link": "geomagnetic-storms"
       },
       "S": {
         "name": "太陽輻射風暴",
-        "description": "當大量來自太陽的高能量質子輻射流入磁力圈，到磁力圈不能承受時，圈內帶電荷粒子便能進入大氣兩極，途中對衛星、太空人、極地航班的乘客和機組人員或太空船的電子組件等造成影響。",
+        "description": "高能粒子和等離子流對太空人、極地航班的乘客和機組人員造成威脅。",
         "image": "solar_radiation_storm.jpg",
         "code": "S",
         "link": "solar-radiation-storms"
       },
-      "G": {
-        "name": "地磁風暴",
-        "description": "日冕物質拋射的等離子體在地球磁層中產生強烈的電流，扭曲地球磁場，令大氣的密度會增加，影響低地球軌道上的衛星軌道、無線電信號路徑或GPS系統的性能。",
-        "image": "geomagnetic_storm.jpg",
-        "code": "G",
-        "link": "geomagnetic-storms"
+      "R": {
+        "name": "無線電通信中斷",
+        "description": "強烈X射線的電離作用擾亂地球的電離層，產生訊號閃爍（意即噪音、畸變失真和衰減），干擾無線電通訊。",
+        "image": "radio_blackout.jpg",
+        "code": "R",
+        "link": "radio-blackouts"
       }
     }
   }

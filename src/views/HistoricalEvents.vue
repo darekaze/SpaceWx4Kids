@@ -21,7 +21,7 @@ export default {
     "historical-events": "Historical Events"
   },
   "zh": {
-    "historical-events": "重大歷史事件"
+    "historical-events": "歷史事件"
   }
 }
 </i18n>

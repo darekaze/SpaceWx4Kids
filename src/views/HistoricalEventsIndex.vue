@@ -2,7 +2,7 @@
   <v-container pt-3>
     <v-card max-width="880" class="bg-card">
       <v-card-text>
-    <v-timeline :dense="mobile" :align-top="mobile">
+    <v-timeline dark :dense="mobile" :align-top="mobile">
       <v-timeline-item
         v-for="(event, i) in events" :key="i"
         small :color="event.color">
@@ -43,7 +43,7 @@ export default {
 .bg-card {
   margin: 0 auto;
   border-radius: 6px;
-  background: #ffffffe8;
+  background: #ffffff00;
 }
 </style>
 
