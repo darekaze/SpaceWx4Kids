@@ -35,6 +35,9 @@
       </v-card-text>
 
       <v-card-actions>
+        <div class="pl-3 font-italic">
+          ({{ $t('source') }})
+        </div>
         <v-spacer></v-spacer>
         <v-btn flat color="green darken-1" @click.stop="dialog = false">
           {{ $t('close') }}
@@ -80,10 +83,12 @@ export default {
 <i18n>
 {
   "en": {
-    "close": "Close"
+    "close": "Close",
+    "source": "Source: Space Weather Prediction Center"
   },
   "zh": {
-    "close": "關閉"
+    "close": "關閉",
+    "source": "資料來源：美國太空天氣預報中心"
   }
 }
 </i18n>

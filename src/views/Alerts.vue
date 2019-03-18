@@ -1,6 +1,11 @@
 <template>
   <sub-page :title="$t('alerts')" icon="icons/alert_icon.png">
     <v-container v-if="isInit">
+      <v-layout py-2>
+        <v-flex>
+          <ChinaLink />
+        </v-flex>
+      </v-layout>
       <v-layout py-2
         v-for="(value, key) in $t('alertsInfo')" :key="key">
         <v-flex>
@@ -12,9 +17,6 @@
       <div class="white--text text-xs-right">
         <div class="subheading">
           {{ `${$t('updated')} ${dateTime}` }}
-        </div>
-        <div class="font-italic">
-          ({{ $t('source') }})
         </div>
       </div>
     </v-container>
@@ -28,6 +30,7 @@ export default {
   name: 'alerts-page',
   components: {
     SubPage: () => import('@/components/SubPageTemplate.vue'),
+    ChinaLink: () => import('@/components/Alerts/ChinaLink.vue'),
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
   },
   computed: {
@@ -71,7 +74,6 @@ export default {
   "en": {
     "alerts": "Alerts",
     "updated": "Updated at",
-    "source": "Source: Space Weather Prediction Center",
     "no-alert": "No Alert",
     "alert-msg": {
       "R": "Radio Blackout in force",
@@ -105,7 +107,6 @@ export default {
   "zh": {
     "alerts": "警報",
     "updated": "更新時間：",
-    "source": "資料來源：美國太空天氣預報中心",
     "no-alert": "無警報",
     "alert-msg": {
       "R": "級別無綫電通訊中斷正在生效",
