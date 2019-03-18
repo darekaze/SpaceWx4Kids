@@ -2,7 +2,6 @@
   <v-hover>
     <v-card
       slot-scope="{ hover }"
-      :to="$i18nRoute({ name: 'gameplay', params: { game: info.link } })"
       :class="`elevation-${hover ? 8 : 0}`"
       class="round">
       <v-img

@@ -82,19 +82,8 @@ export default [
       },
       {
         path: 'games',
+        name: 'games',
         component: load('Games'),
-        children: [
-          {
-            path: '',
-            name: 'games',
-            component: load('GamesIndex'),
-          },
-          {
-            path: ':game',
-            name: 'gameplay',
-            component: load('Gameplay'),
-          },
-        ],
       },
       {
         path: '*',
