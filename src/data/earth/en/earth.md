@@ -1,7 +1,7 @@
 # The Earth
 
 ![0306_earth](./static/0306_earth.png)
-*(Source: Figure 2-13, p 49, The Atmosphere (Eleventh Edition), Frederick F. Lutgens and Edward J. Tarbuck)*
+*(Source: The Atmosphere (Eleventh Edition), Frederick F. Lutgens and Edward J. Tarbuck)*
 
 Earth is the third-closest planet to the Sun.  It is the only planet known to have large amounts of liquid water.
 

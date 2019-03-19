@@ -35,16 +35,14 @@ export default {
     "navigation-system": "Navigation System",
     "communication": "Communication",
     "aviation": "Aviation",
-    "human-space-exploration": "Human Space Exploration",
-    "satellite": "Satellite"
+    "human-space-exploration-and-satellite": "Human Space Exploration and Satellite"
   },
   "zh": {
     "electric-power": "電力",
     "navigation-system": "導航及定位系統",
     "communication": "通訊",
     "aviation": "航空",
-    "human-space-exploration": "人類太空探索",
-    "satellite": "人造衞星"
+    "human-space-exploration-and-satellite": "人類太空探索和人造衞星"
   }
 }
 </i18n>

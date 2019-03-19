@@ -1,13 +1,10 @@
-## Coronal Mass Ejections (CME)
+# Coronal Mass Ejections (CME)
 
 ![0306_cme](./static/0306_cme.jpg)
 *(Source/Credits:  Solar Dynamics Observatory )*
 
-Coronal mass ejection is essentially a magnetized cloud of ionised gas consisting of high speed energetic particles ejected from the Sun.
+Solar flares are sometimes accompanied by coronal mass ejections (CMEs).  CMEs are also formed by reorganization of the Sun’s magnetic field lines.  They consist of energetic **charged particles** which travel at high speed, taking about 15-18 hours to several days to reach our planet.
 
-![0306_CME](./static/0306_CME.gif)
-*(Source/Credits: nasa)*
+<iframe src="../videos/CME_eruption.mp4" frameborder="0" allowfullscreen></iframe>
 
-Radio transmissions may be disrupted, damaging satellites or other electrical transmission line facilities and cause power blackout. 
-
-
+*(Source/Credits: NASA/SDO)*
