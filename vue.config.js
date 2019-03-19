@@ -13,7 +13,7 @@ const md = require('markdown-it')({
   .use(require('markdown-it-ins'))
   .use(require('markdown-it-sup'));
 
-const subDirName = 'r2dev/spacewx4kids'; // Remember to change you site directory!!
+const subDirName = 'V2/education/spacewx4kids'; // Remember to change you site directory!!
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'

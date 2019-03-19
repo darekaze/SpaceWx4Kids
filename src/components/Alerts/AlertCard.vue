@@ -22,7 +22,7 @@
               <h3 class="title indigo--text font-weight-bold mb-2">
                 {{ info.name }}
               </h3>
-              <div class="body-1">
+              <div class="subheading">
                 {{ info.description }}
               </div>
             </v-flex>

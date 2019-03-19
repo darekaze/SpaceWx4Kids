@@ -4,11 +4,11 @@ This solar storm was a massive **X45-class solar storm** which was one of the la
 
 | Solar flares lassification | Peak flux range at 100–800 picometre (watts/square metre) |
 | -------------- | --------------------------------------------------------- |
-| A              | < $10^{-7}$                                               |
-| B              | $10^{-7}$ - $10^{-6}$                                     |
-| C              | $10^{-6}$ - $10^{-5}$                                     |
-| M              | $10^{-5}$ - $10^{-4}$                                     |
-| X              | $10^{-4}$ - $10^{-3}$
+| A              | &lt; 10^-7^                                               |
+| B              | 10^-7^ - 10^-6^                                     |
+| C              | 10^-6^ - 10^-5^                                     |
+| M              | 10^-5^ - 10^-4^                                     |
+| X              | 10^-4^ - 10^-3^
 
 ![0306_2003](./static/0306_2003.png)
 *A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the sun early on 28 October, 2003. (Source/Credits: NASA/SOHO)*

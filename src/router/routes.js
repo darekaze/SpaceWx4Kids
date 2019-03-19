@@ -71,6 +71,11 @@ export default [
         component: load('Alerts'),
       },
       {
+        path: 'monitor',
+        name: 'monitor',
+        component: load('Alerts'), // TODO: Implement Monitor page
+      },
+      {
         path: 'sun',
         name: 'sun',
         component: load('TheSun'),
@@ -84,11 +89,6 @@ export default [
         path: 'games',
         name: 'games',
         component: load('Games'),
-      },
-      {
-        path: 'games/:game',
-        name: 'gameplay',
-        component: load('Gameplay'),
       },
       {
         path: '*',
