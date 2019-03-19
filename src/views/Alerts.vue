@@ -72,7 +72,7 @@ export default {
 <i18n>
 {
   "en": {
-    "alerts": "Alerts",
+    "alerts": "Forecast & Alert",
     "updated": "Updated at",
     "no-alert": "No Alert",
     "alert-msg": {
