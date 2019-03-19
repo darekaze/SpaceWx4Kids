@@ -4,10 +4,10 @@
       <v-flex xs12 grey darken-3 pt-1 />
       <div class="pr-1">
         <v-img contain
-        alt="Didi Logo"
-        :src="require('@/assets/icons/didi.svg')"
+        alt="Feng Logo"
+        :src="require('@/assets/icons/feng.png')"
         transition="scale-transition"
-        height="60px" width="40px"/>
+        height="56px" width="54px"/>
       </div>
       <v-btn
         light flat large

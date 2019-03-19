@@ -1,5 +1,5 @@
 <template>
-  <sub-page :title="$t('phenomena')" icon="icons/ph_icon.svg">
+  <sub-page :title="$t('phenomena')" icon="icons/ph_icon.png">
     <v-fade-transition mode="out-in">
       <router-view/>
     </v-fade-transition>
