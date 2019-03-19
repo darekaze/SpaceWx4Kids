@@ -102,7 +102,6 @@ export default {
       border-collapse: collapse;
       height: 320px;
       margin: 30px auto;
-      width: 95%;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       animation: float 5s infinite;
       text-align: center;
@@ -246,16 +245,29 @@ export default {
     &/deep/ {
       font-size: 1.1rem;
       line-height: 1.44;
+      img + em, iframe + p em {
+        font-size: 1.0rem;
+      }
+      th, tr, td {
+        font-size: 1.3rem;
+      }
     }
   } /* @iPad */
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
   .article-md {
     &/deep/ {
-      text-align: left;
       width: auto;
       padding: 0 10px;
+
+      th, tr, td {
+        font-size: 1.1rem;
+      }
+
+      img {
+        width: 95%;
+      }
     }
   } /* @Phone */
 }

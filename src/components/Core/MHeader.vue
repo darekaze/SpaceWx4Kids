@@ -1,6 +1,8 @@
 <template>
   <v-toolbar app height="60" :absolute="atHome">
-    <v-toolbar-title class="headline text-capitalize c-ptr" @click.stop="goHome">
+    <v-toolbar-title
+      class="headline text-capitalize c-ptr hidden-xs-only"
+      @click.stop="goHome">
       <span>{{ $t('titleA') }}</span>
       <span class="font-weight-light">{{ $t('titleB') }}</span>
     </v-toolbar-title>
@@ -9,8 +11,7 @@
         alt="Dr.Tin Logo"
         :src="require('@/assets/icons/tin.png')"
         transition="scale-transition"
-        height="60px" width="52px"
-        class="hidden-xs-only"/>
+        height="60px" width="52px"/>
     </router-link>
     <v-spacer/>
     <lang-switcher/>

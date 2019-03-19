@@ -3,6 +3,7 @@
     outline
     color="indigo"
     class="p-relative text-capitalize"
+    :class="{ scales: $vuetify.breakpoint.xsOnly }"
     @click="changeLanguage()">
     {{ $t('switchLang') }}
     <v-img
@@ -37,6 +38,9 @@ export default {
     top: -8px;
     right: -6px;
   }
+}
+.scales {
+  transform: scale(0.9, 0.9);
 }
 </style>
 

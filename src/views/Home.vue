@@ -21,8 +21,10 @@
         <v-flex xs4>
           <v-layout column fill-height justify-center>
             <topic-card :title="$t('phenomena')" img="nh_ph" to="phenomena"/>
-            <topic-card :title="$t('sun')" img="nh_sun" to="sun" class="pt-4"/>
-            <topic-card :title="$t('historical-events')" img="nh_event" to="historical-events" class="pt-4"/>
+            <topic-card class="pt-4"
+              :title="$t('sun')" img="nh_sun" to="sun"/>
+            <topic-card class="pt-4"
+              :title="$t('historical-events')" img="nh_event" to="historical-events" />
           </v-layout>
         </v-flex>
         <v-flex xs4>
