@@ -20,4 +20,4 @@
 資料來源: 
 
 - [美國太空總署NASA](<https://www.nasa.gov/>)
-- [美國海洋和大氣管理局空間天氣預報中心](https://www.swpc.noaa.gov/)
+- [美國海洋和大氣管理局太空天氣預報中心](https://www.swpc.noaa.gov/)
