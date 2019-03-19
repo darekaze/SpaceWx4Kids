@@ -1,4 +1,4 @@
-## The Sun
+# The Sun
 
 The Sun is a star at the centre of the Solar System. It drives the circulation of the Earth’s atmosphere, and is also the primary energy source of the Earth.  It ceaselessly supplies energy to the plants, providing food and oxygen for nurturing life on the Earth.  Meanwhile, the Sun is also driving majority of space weather phenomena.
 
@@ -15,8 +15,30 @@ The Sun is a star at the centre of the Solar System. It drives the circulation o
 | Chemical Composition      | Hydrogen(~71%), Helium(~27%), Heavy elements(~2%) (by mass) |
 | Age                       | ~ 4.5 - 4.6 billion years                                |
 
+## Corona
+
+Our Sun is surrounded by an ‘atmosphere’. The corona is the outermost part of the Sun's atmosphere. The corona is usually hidden by the bright light of the Sun's surface.  So it is difficult to view without using special instruments. However, the corona can be seen during a total solar eclipse.
+
+![corona-eclipse](./static/corona-eclipse.jpg)
+*The Sun's corona became visible during the total solar eclipse on August 21, 2017. (Credit: NASA/Carla Thomas)*
+
+(https://www.nasa.gov/image-feature/suns-corona-seen-during-the-2017-solar-eclipse)
+
+Although the corona is far from the Sun’s surface, it has extremely high temperatures and is hundreds of times hotter than the Sun’s surface. However, the corona looks very dim. It is because the corona is about 10 million times less dense than the Sun’s surface.
+
+The corona extends far out into space. It produces the solar wind that travels through our solar system. The corona's high temperature causes its particles to move at very high speeds, which allow them to escape from the Sun's gravity.  
+
+## Coronal Holes
+
+![coronal hole](./static/0306_hole.jpg)
+*(Source/Credits: NASA)*
+
+Coronal holes are areas in the Sun's corona which are **colder** and have **lower density**. It is common to see coronal holes during years of **solar minimum**. We can find them in X-ray images of the Sun.
+
+To learn about space weather, let us first find out what phenomena does our Sun bring - Phenomena
 
 ---
+
 Source :
 - [NASA](https://www.nasa.gov/)
 - [NOAA - Space Weather Prediction Center](https://www.swpc.noaa.gov/)
