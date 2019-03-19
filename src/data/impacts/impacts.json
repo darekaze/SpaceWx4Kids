@@ -15,12 +15,8 @@
     "link": "aviation",
     "image": "aviation.jpg"
   },
-  "human-space-exploration": {
+  "human-space-exploration-and-satellite": {
     "link": "exploration",
     "image": "space_expo.jpg"
-  },
-  "satellite": {
-    "link": "satellite",
-    "image": "satellite.jpg"
   }
 }
