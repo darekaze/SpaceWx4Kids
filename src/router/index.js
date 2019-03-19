@@ -17,7 +17,7 @@ export default new Router({
           resolve(savedPosition);
         }
         resolve({ x: 0, y: 0 });
-      }, 220);
+      });
     });
   },
 });
