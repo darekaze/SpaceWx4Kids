@@ -53,7 +53,7 @@ export default {
     "phenomena": "Phenomena",
     "impacts": "Impacts",
     "historical-events": "Historical Events",
-    "alerts": "Alerts",
+    "alerts": "Forecast & Alert",
     "games": "Minigames"
   },
   "zh": {

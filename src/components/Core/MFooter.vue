@@ -4,14 +4,14 @@
       <v-flex xs12 grey darken-3 pt-1 />
       <div class="pr-1">
         <v-img contain
-        alt="Didi Logo"
-        :src="require('@/assets/icons/didi.svg')"
+        alt="Feng Logo"
+        :src="require('@/assets/icons/feng.png')"
         transition="scale-transition"
-        height="60px" width="40px"/>
+        height="56px" width="54px"/>
       </div>
       <v-btn
         light flat large
-        class="text-capitalize px-3 mx-1"
+        class="text-capitalize px-3 mx-1 hidden-xs-only"
         :to="$i18nRoute({ name: 'games' })">
         {{ $t('games') }}
       </v-btn>
