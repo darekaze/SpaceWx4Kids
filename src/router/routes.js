@@ -91,9 +91,14 @@ export default [
         component: load('Games'),
       },
       {
+        path: '404',
+        name: '404',
+        component: load('404'),
+      },
+      {
         path: '*',
         redirect() {
-          return `/${Trans.currentLanguage}/`;
+          return `/${Trans.currentLanguage}/404`;
         },
       },
     ],

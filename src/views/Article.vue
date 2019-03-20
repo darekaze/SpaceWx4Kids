@@ -43,9 +43,7 @@ export default {
       try {
         this.article = await import(`@/data/${category}/${lang}/${topic}.md`);
       } catch (error) {
-        // eslint-disable-next-line no-console
-        console.log(error); // TODO: Add handler
-        // this.$router.replace(this.$i18nRoute({ name: '404' }));
+        this.$router.replace(this.$i18nRoute({ name: '404' }));
       }
     },
   },
