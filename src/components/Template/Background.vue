@@ -23,14 +23,14 @@ export default {
   background-color: #263238;
 
   &-normal {
-    background-image: url('../assets/images/space_background.jpg');
+    background-image: url('../../assets/images/space_background.jpg');
     background-repeat: repeat-y;
     background-size: 100vw auto;
     min-height: calc(100vh - 120px);
   }
 
   &-special { // Need further change, TEMP: Switch to png for no animation
-    background-image: url('../assets/images/index.gif');
+    background-image: url('../../assets/images/index.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

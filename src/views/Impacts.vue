@@ -10,7 +10,7 @@
 export default {
   name: 'impacts-page',
   components: {
-    SubPage: () => import('@/components/SubPageTemplate.vue'),
+    SubPage: () => import('@/components/Template/SubPage.vue'),
   },
 };
 </script>

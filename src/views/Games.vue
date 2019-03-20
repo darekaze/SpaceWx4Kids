@@ -22,7 +22,7 @@ import gamesInfo from '@/data/game/games.json';
 export default {
   name: 'games-page',
   components: {
-    SubPage: () => import('@/components/SubPageTemplate.vue'),
+    SubPage: () => import('@/components/Template/SubPage.vue'),
     GameCard: () => import('@/components/Cards/GameCard.vue'),
   },
   data: () => ({

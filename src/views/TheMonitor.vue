@@ -8,7 +8,7 @@
 export default {
   name: 'monitor-page',
   components: {
-    SubPage: () => import('@/components/SubPageTemplate.vue'),
+    SubPage: () => import('@/components/Template/SubPage.vue'),
     Article: () => import('@/views/Article.vue'),
   },
 };

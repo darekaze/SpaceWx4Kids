@@ -18,7 +18,7 @@ export default {
   name: 'App',
   components: {
     MHeader: () => import('@/components/Core/MHeader.vue'),
-    SpaceBg: () => import('@/components/Background.vue'),
+    SpaceBg: () => import('@/components/Template/Background.vue'),
     MFooter: () => import('@/components/Core/MFooter.vue'),
   },
 };

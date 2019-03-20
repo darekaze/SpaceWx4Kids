@@ -29,7 +29,7 @@ import { mapGetters } from 'vuex';
 export default {
   name: 'alerts-page',
   components: {
-    SubPage: () => import('@/components/SubPageTemplate.vue'),
+    SubPage: () => import('@/components/Template/SubPage.vue'),
     ChinaLink: () => import('@/components/Alerts/ChinaLink.vue'),
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
   },
