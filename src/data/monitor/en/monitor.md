@@ -22,4 +22,4 @@ The Solar Dynamics Observatory (SDO) spacecraft is a NASA mission which has been
 ![sun](./static/monitor6.png)
 *SDO’s visible light images (a yolk-like spotless Sun for 15 days starting on March 7, 2017). (Credit: NASA)*
 
-Now let us see how scientists issue space weather alerts - Alerts
+Now let us see how scientists issue space weather alerts - [Alerts](/#/en/alerts)
