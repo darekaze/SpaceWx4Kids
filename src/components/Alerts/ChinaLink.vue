@@ -29,7 +29,7 @@
     "china-src": "3-day Space Weather Forecast by National Satellite Meteorological Center"
   },
   "zh": {
-    "china-src": "國家衛星氣象中心未來三天空間天氣預報"
+    "china-src": "國家衛星氣象中心未來三天太空天氣預報"
   }
 }
 </i18n>

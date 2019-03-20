@@ -1,6 +1,7 @@
 <template>
   <v-container pt-3>
-    <v-card max-width="880" class="bg-card">
+    <v-card color="transparent"
+      max-width="880" class="bg-card">
       <v-card-text>
     <v-timeline dark :dense="mobile" :align-top="mobile">
       <v-timeline-item
@@ -43,7 +44,6 @@ export default {
 .bg-card {
   margin: 0 auto;
   border-radius: 6px;
-  background: #ffffff00;
 }
 </style>
 

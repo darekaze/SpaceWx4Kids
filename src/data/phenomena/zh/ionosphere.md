@@ -1,7 +1,7 @@
 # 電離層
 
 ![0306_ionosphere](./static/0306_ionosphere.jpg)
-*(資料來源︰國家空間科學中心)*
+*(資料來源︰國家太空科學中心)*
 
 電離層由帶電原子和分子所組成，位於**80公里至約600公里高度**。電離層分為三個主要層，分別為**D層、E層和F層**。這三層的高度會隨着季節而變化。
 
@@ -13,5 +13,3 @@
 
 - [The Ionosphere](https://scied.ucar.edu/ionosphere)
 - [這個離我們最近的太空圈層，讓人又愛又恨](https://kknews.cc/science/r8j69y4.html)
-
-

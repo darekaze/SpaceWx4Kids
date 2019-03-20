@@ -65,11 +65,11 @@
         "url": "https://www.swpc.noaa.gov"
       },
       {
-        "name": "國家空間天氣監測預警中心",
+        "name": "國家太空天氣監測預警中心",
         "url": "http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html"
       },
       {
-        "name": "空間環境預報中心",
+        "name": "太空環境預報中心",
         "url": "http://www.sepc.ac.cn"
       },
       {
@@ -77,7 +77,7 @@
         "url": "http://rwcc.bao.ac.cn"
       },
       {
-        "name": "空間環境預報中心 *",
+        "name": "太空環境預報中心 *",
         "url": "https://sunearthday.gsfc.nasa.gov/swac"
       },
       {
