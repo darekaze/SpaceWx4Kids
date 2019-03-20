@@ -5,7 +5,7 @@
       "zh": "頭腦風暴"
     },
     "image": "geomagnetic_storm.jpg",
-    "url": "./games/quiz/"
+    "url": "./games/quiz/index.html"
   },
   {
     "title": {
@@ -13,7 +13,7 @@
       "zh": "太空詞語"
     },
     "image": "radio_blackout.jpg",
-    "url": "./games/spelling/"
+    "url": "./games/spelling/index.html"
   },
   {
     "title": {
@@ -21,7 +21,7 @@
       "zh": "拼圖樂"
     },
     "image": "phenomena/ionosphere.jpg",
-    "url": "./games/puzzle/"
+    "url": "./games/puzzle/index.html"
   },
   {
     "title": {
@@ -29,6 +29,6 @@
       "zh": "數字風波"
     },
     "image": "solar_radiation_storm.jpg",
-    "url": "./games/number/"
+    "url": "./games/number/index.html"
   }
 ]
