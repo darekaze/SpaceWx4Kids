@@ -13,6 +13,7 @@
         transition="scale-transition"
         height="60px" width="52px"/>
     </router-link>
+    <div class="pt-4 font-weight-medium">({{ $t('beta') }})</div>
     <v-spacer/>
     <lang-switcher/>
     <burger-menu/>
@@ -50,11 +51,13 @@ export default {
 {
   "en": {
     "titleA": "Space",
-    "titleB": "Weather"
+    "titleB": "Weather",
+    "beta": "Beta"
   },
   "zh": {
     "titleA": "太空",
-    "titleB": "天氣"
+    "titleB": "天氣",
+    "beta": "試測版"
   }
 }
 </i18n>
