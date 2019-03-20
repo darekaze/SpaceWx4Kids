@@ -73,7 +73,7 @@ export default [
       {
         path: 'monitor',
         name: 'monitor',
-        component: load('Alerts'), // TODO: Implement Monitor page
+        component: load('TheMonitor'), // TODO: Implement Monitor page
       },
       {
         path: 'sun',
