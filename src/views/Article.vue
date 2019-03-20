@@ -90,10 +90,11 @@ export default {
       padding-top: 8px;
     }
 
-    video, iframe {
+    iframe {
       display: block;
       margin: 0 auto;
       width: 80%;
+      height: 400px;
     }
 
     table {
@@ -267,6 +268,10 @@ export default {
 
       img {
         width: 95%;
+      }
+
+      iframe {
+        height: 180px;
       }
     }
   } /* @Phone */
