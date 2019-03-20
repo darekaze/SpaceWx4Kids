@@ -12,7 +12,7 @@ Solar activity is periodic. A solar cycle (also called a sunspot cycle) is an ap
 ![0319_solar_cycle](./static/0319_cycle.png)
 *Solar cycle (Source/Credits: [SILO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso)*
 
-<iframe src="../videos/Sun’s_magnetic_field@nasa.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe src="./videos/Sun’s_magnetic_field@nasa.mp4" frameborder="0" allowfullscreen></iframe>
 
 *This visualization represents the constant changing of the sun’s magnetic field over the course of four years. (Credit: NASA's Scientific Visualization Studio)*
 
