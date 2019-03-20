@@ -1,7 +1,7 @@
 <template>
   <v-menu offset-y>
     <v-toolbar-side-icon slot="activator"/>
-    <v-list>
+    <v-list class="pb-1">
       <v-list-tile
         v-for="item in menuItems"
         :key="item.name"
@@ -13,6 +13,7 @@
           {{ $t(item.name) }}
         </v-list-tile-title>
       </v-list-tile>
+      <v-divider/>
       <v-list-tile
         rel="noopener noreferrer"
         :href="$t('kids-link')">
