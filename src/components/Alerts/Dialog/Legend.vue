@@ -173,22 +173,22 @@ export default {
       "R4": {
         "scale": "4",
         "definition": "X射線最高流量 = 1 x 10<sup>-3</sup> Wm<sup>-2</sup><br>(X10級耀班)",
-        "intensity": "激烈"
+        "intensity": "嚴重"
       },
       "R3": {
         "scale": "3",
         "definition": "X射線最高流量 = 1 x 10<sup>-4</sup> Wm<sup>-2</sup><br>(X1級耀班)",
-        "intensity": "強大"
+        "intensity": "强烈"
       },
       "R2": {
         "scale": "2",
         "definition": "X射線最高流量 = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M2級耀班)",
-        "intensity": "溫和"
+        "intensity": "中等"
       },
       "R1": {
         "scale": "1",
         "definition": "X射線最高流量 = 1 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M1級耀班)",
-        "intensity": "細小"
+        "intensity": "輕微"
       },
       "無級別": {
         "scale": "0",
@@ -205,22 +205,22 @@ export default {
       "S4": {
         "scale": "4",
         "definition": "10兆電子伏高能質子通量 = 10<sup>4</sup> pfu",
-        "intensity": "激烈"
+        "intensity": "嚴重"
       },
       "S3": {
         "scale": "3",
         "definition": "10兆電子伏高能質子通量 = 10<sup>3</sup> pfu",
-        "intensity": "強大"
+        "intensity": "强烈"
       },
       "S2": {
         "scale": "2",
         "definition": "10兆電子伏高能質子通量 = 10<sup>2</sup> pfu",
-        "intensity": "溫和"
+        "intensity": "中等"
       },
       "S1": {
         "scale": "1",
         "definition": "10兆電子伏高能質子通量 = 10 pfu",
-        "intensity": "細小"
+        "intensity": "輕微"
       },
       "無級別": {
         "scale": "0",
@@ -237,22 +237,22 @@ export default {
       "G4": {
         "scale": "4",
         "definition": "Kp指數 = 8",
-        "intensity": "激烈"
+        "intensity": "嚴重"
       },
       "G3": {
         "scale": "3",
         "definition": "Kp指數 = 7",
-        "intensity": "強大"
+        "intensity": "强烈"
       },
       "G2": {
         "scale": "2",
         "definition": "Kp指數 = 6",
-        "intensity": "溫和"
+        "intensity": "中等"
       },
       "G1": {
         "scale": "1",
         "definition": "Kp指數 = 5",
-        "intensity": "細小"
+        "intensity": "輕微"
       },
       "無級別": {
         "scale": "0",

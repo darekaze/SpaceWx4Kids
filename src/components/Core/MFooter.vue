@@ -11,7 +11,7 @@
       </div>
       <v-btn
         light flat large
-        class="text-capitalize px-3 mx-1 hidden-xs-only"
+        class="text-capitalize px-3 mx-1"
         :to="$i18nRoute({ name: 'games' })">
         {{ $t('games') }}
       </v-btn>

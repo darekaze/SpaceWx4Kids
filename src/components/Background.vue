@@ -26,7 +26,7 @@ export default {
     background-image: url('../assets/images/space_background.jpg');
     background-repeat: repeat-y;
     background-size: 100vw auto;
-    min-height: calc(100vh - 124px);
+    min-height: calc(100vh - 120px);
   }
 
   &-special { // Need further change, TEMP: Switch to png for no animation

@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-title primary-title class="headline grey lighten-2">
-      Acknowledgement
+      {{ $t('acknowledgement') }}
     </v-card-title>
 
     <v-card-text v-if="ack">
