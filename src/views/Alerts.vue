@@ -129,7 +129,7 @@ export default {
         "link": "solar-radiation-storms"
       },
       "R": {
-        "name": "無線電通信中斷",
+        "name": "無線電通訊中斷",
         "description": "強烈X射線的電離作用擾亂地球的電離層，產生訊號閃爍（意即噪音、畸變失真和衰減），干擾無線電通訊。",
         "image": "radio_blackout.jpg",
         "code": "R",

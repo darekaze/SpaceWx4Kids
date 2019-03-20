@@ -1,4 +1,4 @@
-## 太陽耀斑/無線電通信中斷
+## 太陽耀斑/無線電通訊中斷
 
 ![0314_rb](./static/0314_rb.png)
 *太陽耀斑 (資料來源: [過渡區及日冕探測者](http://trace.lmsal.com/Science/ScientificResults/trace_cdrom/html/trace_images.html))*

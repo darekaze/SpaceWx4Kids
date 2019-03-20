@@ -49,7 +49,7 @@ export default {
     "geomagnetic-storm": "地磁風暴",
     "ionosphere": "電離層",
     "radiation-belt": "輻射帶",
-    "radio-blackouts": "太陽耀斑/無線電通信中斷",
+    "radio-blackouts": "太陽耀斑/無線電通訊中斷",
     "solar-radiation-storms": "太陽輻射風暴"
   }
 }
