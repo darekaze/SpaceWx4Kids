@@ -1,9 +1,12 @@
 <template>
   <sub-page :title="$t('alerts')" icon="icons/alert_icon.png">
     <v-container v-if="isInit">
-      <v-layout py-2>
-        <v-flex>
-          <ChinaLink />
+      <v-layout row wrap py-2>
+        <v-flex xs12 sm8>
+          <ChinaLink/>
+        </v-flex>
+        <v-flex xs12 sm4>
+          <AlertInfo/>
         </v-flex>
       </v-layout>
       <v-layout py-2
@@ -30,8 +33,9 @@ export default {
   name: 'alerts-page',
   components: {
     SubPage: () => import('@/components/Template/SubPage.vue'),
-    ChinaLink: () => import('@/components/Alerts/ChinaLink.vue'),
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
+    ChinaLink: () => import('@/components/Alerts/ChinaLink.vue'),
+    AlertInfo: () => import('@/components/Alerts/Intro/AlertInfo.vue'),
   },
   computed: {
     ...mapGetters([

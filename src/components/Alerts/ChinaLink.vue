@@ -9,8 +9,8 @@
       class="round">
       <v-img
         :src="require('@/assets/images/satellite.jpg')"
-        :aspect-ratio="6"
-        gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)">
+        gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)"
+        height="160">
         <v-layout
           fill-height px-3 py-4
           align-center justify-center>
