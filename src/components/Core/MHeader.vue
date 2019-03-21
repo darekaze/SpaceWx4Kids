@@ -13,7 +13,7 @@
         transition="scale-transition"
         height="60px" width="52px"/>
     </router-link>
-    <div class="pt-4 font-weight-medium">({{ $t('beta') }})</div>
+    <!-- <div class="pt-4 font-weight-medium">({{ $t('beta') }})</div> -->
     <v-spacer/>
     <lang-switcher/>
     <burger-menu/>
