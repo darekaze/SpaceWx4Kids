@@ -13,7 +13,7 @@
     <v-card-actions>
       <v-spacer></v-spacer>
       <v-btn flat color="primary" @click="$emit('dialog')">
-        Close
+        {{ $t('close') }}
       </v-btn>
     </v-card-actions>
   </v-card>

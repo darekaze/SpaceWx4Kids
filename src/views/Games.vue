@@ -7,9 +7,8 @@
           v-for="value in gamesInfo" :key="value.link">
           <game-card :info="value"/>
         </v-flex>
-        <v-flex xs12>
-          <!-- TODO: Add webgl tutorial -->
-          <!-- Card here -->
+        <v-flex xs12 pt-4>
+          <GameInfo/>
         </v-flex>
       </v-layout>
     </v-container>
@@ -24,6 +23,7 @@ export default {
   components: {
     SubPage: () => import('@/components/Template/SubPage.vue'),
     GameCard: () => import('@/components/Cards/GameCard.vue'),
+    GameInfo: () => import('@/components/WebGL/Info.vue'),
   },
   data: () => ({
     gamesInfo,
