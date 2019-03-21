@@ -8,4 +8,5 @@
 太陽風為地球磁場帶來的壓力會壓縮地球磁場向日的一側，並拉長地球磁場背日的一側。
 
 <iframe src="./videos/magnetic_field.mp4" frameborder="0" allowfullscreen></iframe>
+
 *這動畫顯示日冕物質拋射如何從太陽放出，並干擾地球的磁場（彎曲的紫色線），因而產生極光（環繞北極和南極的藍色光環）。(來源: 美國太空總署)*
