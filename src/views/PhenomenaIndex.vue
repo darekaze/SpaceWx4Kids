@@ -46,7 +46,7 @@ export default {
     "solar-flare": "太陽耀斑",
     "cme": "日冕物質拋射",
     "magnetosphere": "地球磁層",
-    "geomagnetic-storm": "地磁風暴",
+    "geomagnetic-storm": "地磁暴",
     "ionosphere": "電離層",
     "radiation-belt": "輻射帶",
     "radio-blackouts": "無線電通訊中斷",

@@ -115,11 +115,11 @@ export default {
     "alert-msg": {
       "R": "級別無綫電通訊中斷正在生效",
       "S": "級別太陽輻射風暴正在生效",
-      "G": "級別地磁風暴正在生效"
+      "G": "級別地磁暴正在生效"
     },
     "alertsInfo": {
       "G": {
-        "name": "地磁風暴",
+        "name": "地磁暴",
         "description": "強烈的太陽風扭曲地球磁場。由於電磁感應產生瞬間電流猛烈波動，能損毀變壓器、電子儀器和導航設備。",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
