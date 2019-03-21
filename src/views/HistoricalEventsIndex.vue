@@ -51,13 +51,15 @@ export default {
 {
   "en": {
     "carrington-event": "Carrington Event",
-    "quebec-electrical-blackout": "Solar Flare - Quebec Electrical Blackout",
-    "halloween-solar-storm": "\"Halloween\" Solar Storm"
+    "quebec-electrical-blackout": "Quebec Electrical Blackout",
+    "halloween-solar-storm": "\"Halloween\" Solar Storm",
+    "space-fireworks-event": "Space Fireworks Event"
   },
   "zh": {
     "carrington-event": "卡靈頓事件",
-    "quebec-electrical-blackout": "太陽耀斑 - 魁北克電力系統中斷",
-    "halloween-solar-storm": "萬聖節太陽風暴"
+    "quebec-electrical-blackout": "魁北克大停電",
+    "halloween-solar-storm": "萬聖節太陽風暴",
+    "space-fireworks-event": "太空煙花事件"
   }
 }
 </i18n>

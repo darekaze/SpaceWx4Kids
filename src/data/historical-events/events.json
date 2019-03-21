@@ -16,5 +16,11 @@
     "name": "halloween-solar-storm",
     "image": "2003@ISS.jpg",
     "color": "orange"
+  },
+  {
+    "year": "2011",
+    "name": "space-fireworks-event",
+    "image": "2011@nasa.jpg",
+    "color": "purple"
   }
 ]

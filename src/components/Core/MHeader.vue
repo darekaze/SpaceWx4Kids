@@ -52,7 +52,7 @@ export default {
   "en": {
     "titleA": "Space",
     "titleB": "Weather",
-    "beta": "Beta"
+    "beta": "Beta version"
   },
   "zh": {
     "titleA": "太空",
