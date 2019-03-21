@@ -1,4 +1,4 @@
-# Navigation Systems
+# Navigation and Positioning Systems
 
 ![0313_navigation](./static/0313_navigation.png)
 
