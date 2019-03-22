@@ -2,7 +2,7 @@
 
 ![0313_exploration](./static/0319_new.png)
 
-**Coronal Mass Ejections (CMEs)** release enormous amounts of energetic particles into space which present a health hazard to **astronauts**, especially when they are working outside the spacecraft.  Besides, charged particles from the Sun may cause impacts to the equipment of the spacecraft.
+**Coronal Mass Ejections (CMEs)** release enormous amounts of energetic particles into space which present a health hazard to astronauts, especially when they are working outside the spacecraft.  Besides, charged particles from the Sun may cause impacts to the equipment of the spacecraft.
 
 |||
 |--|--|

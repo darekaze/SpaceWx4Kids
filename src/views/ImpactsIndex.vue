@@ -32,7 +32,7 @@ export default {
 {
   "en": {
     "electric-power": "Electric Power",
-    "navigation-system": "Navigation System",
+    "navigation-system": "Navigation & Positioning Systems",
     "communication": "Communication",
     "aviation": "Aviation",
     "human-space-exploration-and-satellite": "Human Space Exploration and Satellite"

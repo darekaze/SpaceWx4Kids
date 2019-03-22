@@ -6,8 +6,6 @@
 
 地面觀測會受到地球大氣及天氣的影響，而在太空中進行觀測則沒有這些限制。因此，人造衛星和太空船都被利用來觀測太空天氣。
 
-
-
 ## 衛星監測
 
 「太陽和日球觀測站」（Solar and Heliospheric Observatory，簡稱SOHO）衛星於1995年升空，它的任務是研究太陽風及太陽內部結構。這衛星由歐洲航天局（European Space Agency，簡稱ESA）和美國國家航空暨太空總署（National Aeronautics and Space Administration，簡稱NASA）合作開發。 
@@ -15,12 +13,12 @@
 ![monitor1](./static/monitor1.png)
 *「太陽和日球觀測站」在1996至2015年間的二十年太陽觀測。(來源: NASA)*
 
-「地球同步運行環境衛星」（Geosynchronous Operational Environmental Satellite，簡稱GOES）由美國運行。 GOES 12至15（N-P）衛星各自攜帶一個稱為「太陽X射線成像儀」（SXI）的精密X射線望遠鏡以監測太陽的熱外層大氣或日冕。太陽X射線的觀測有助於早期探測太陽耀斑、日冕物質拋射，以及其他影響地球空間環境的現象。
+「地球同步運行環境衛星」（Geosynchronous Operational Environmental Satellite，簡稱GOES）由美國運行。 GOES 13至15（N-P）衛星各自攜帶一個稱為「太陽X射線成像儀」（SXI）的精密X射線望遠鏡以監測太陽的熱外層大氣或日冕。太陽X射線的觀測有助於早期探測太陽耀斑、日冕物質拋射，以及其他影響地球空間環境的現象。
 
 SXI的觀測可在太陽噴發相關衝擊波到達地球前15小時發出預警，讓太空天氣預報員及時發出監測、警告和警示的訊息。
 
 ![monitor5](./static/monitor5.png)
-*GOES 12至15（N-P）衛星（圖片來源：美國國家海洋和大氣管理局(NOAA)/NASA）*
+*GOES 13至15（N-P）衛星（圖片來源：美國國家海洋和大氣管理局(NOAA)/NASA）*
 
 「太陽動力學天文台」（Solar Dynamics Observatory，簡稱 SDO）太空船是美國國家航空暨太空總署的太空任務在2010年開始觀測太陽。
 

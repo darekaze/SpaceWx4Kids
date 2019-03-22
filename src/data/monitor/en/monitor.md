@@ -13,12 +13,12 @@ Solar and Heliospheric Observatory (SOHO) was launched in 1995 to study solar wi
 ![monitor1](./static/monitor1.png)
 *Observation of the Sun by SOHO from 1996 to 2015 (Source: NASA)*
 
-The Geosynchronous Operational Environmental Satellites (GOES) are operated by the United States. The GOES 12 through 15 (N-P) satellites each carry a sophisticated X-ray telescope called the Solar X-ray Imager (SXI) to monitor the Sun’s hot outer atmosphere, or corona. Observations of solar X-rays aids in the early detection of solar flares, coronal mass ejections (CMEs), and other phenomena that impact the geospace environment.
+The Geosynchronous Operational Environmental Satellites (GOES) are operated by the United States. The GOES 13 through 15 (N-P) satellites each carry a sophisticated X-ray telescope called the Solar X-ray Imager (SXI) to monitor the Sun’s hot outer atmosphere, or corona. Observations of solar X-rays aids in the early detection of solar flares, coronal mass ejections (CMEs), and other phenomena that impact the geospace environment.
 
 The early warning given by the SXI observations comes at least 15 hours before the associated shockwave of the solar eruption arrives at the Earth, allowing the space weather forecasters to issue timely watches, warnings and alerts.
 
 ![monitor5](./static/monitor5.png)
-*GOES N-P (13-15) Satellite (Source: US National Oceanic and Atmospheric Administration (NOAA)/NASA)*
+*GOES 13-15 (N-P) Satellite (Source: US National Oceanic and Atmospheric Administration (NOAA)/NASA)*
 
 The Solar Dynamics Observatory (SDO) spacecraft is a NASA mission which has been observing the Sun since 2010.
 

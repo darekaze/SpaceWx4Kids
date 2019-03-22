@@ -31,10 +31,10 @@ The corona extends far out into space. It produces the solar wind that travels t
 
 ## Coronal Holes
 
-![coronal hole](./static/0306_hole.jpg)
+![coronal hole](./static/0314_hole.jpg)
 *(Source/Credits: NASA)*
 
-Coronal holes are areas in the Sun's **corona** which are **colder** and have **lower density**. It is common to see coronal holes during years of **solar minimum**. We can find them in X-ray images of the Sun
+Coronal holes are areas in the Sun's **corona** which are **colder** and have **lower density**. It is common to see coronal holes during years of **solar minimum**. We can find them in X-ray images of the Sun.
 
 ## What is space weather?
 

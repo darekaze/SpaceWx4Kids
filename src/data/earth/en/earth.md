@@ -13,9 +13,9 @@ Earth is the third-closest planet to the Sun.  It is the only planet known to ha
 | :----------------- | :------------ |
 |Average Radius:                 | ~ 6,370 km |
 |Orbit Period:                   | 365.26 days |
-|Average Surface Temperature:    |~ 15 °C** |
-|Mass:                           | ~6.0 x 1024 kg |
-|Atmospheric Composition:        |Nitrogen(~78%), Oxygen(~21%), Argon, Carbon Dioxide and other gases(~1%)**|
+|Average Surface Temperature:    |~ 15 °C (figure in 2017)|
+|Mass:                           | ~6.0 x 10^24^ kg |
+|Atmospheric Composition:        |Nitrogen(~78%), Oxygen(~21%), Argon, Carbon Dioxide and other gases(~1%)|
 |Age:                            |~ 4.5 billion years |
 
 ---

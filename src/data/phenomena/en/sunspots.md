@@ -10,8 +10,7 @@ Sunspots are dark areas on the Sun's surface with relatively low temperatures (c
 Solar activity is periodic. A solar cycle (also called a sunspot cycle) is an approximately 11-year period with increasing and decreasing sunspot numbers. Each cycle starts from the time of minimum solar activity. 
 
 ![0319_solar_cycle](./static/0319_cycle.png)
-*Solar cycle (Source: [SILO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso)*
+*Solar cycle (Source: [SILSO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso)*
 
 <iframe src="./videos/Sun’s_magnetic_field@nasa.mp4" frameborder="0" allowfullscreen></iframe>
-
 *This visualization represents the constant changing of the sun’s magnetic field over the course of four years. (Credit: NASA's Scientific Visualization Studio)*
