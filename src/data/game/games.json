@@ -1,16 +1,16 @@
 [
   {
     "title": {
-      "en": "Brain Storm Quiz",
-      "zh": "頭腦風暴"
+      "en": "Timing Quiz",
+      "zh": "計時問答"
     },
     "image": "geomagnetic_storm.jpg",
     "url": "./games/quiz/index.html"
   },
   {
     "title": {
-      "en": "Space Spelling",
-      "zh": "太空詞語"
+      "en": "Image Guess",
+      "zh": "猜猜圖像"
     },
     "image": "radio_blackout.jpg",
     "url": "./games/spelling/index.html"
@@ -18,14 +18,14 @@
   {
     "title": {
       "en": "Let's Puzzle!",
-      "zh": "拼圖樂"
+      "zh": "齊來拼圖！"
     },
     "image": "phenomena/ionosphere.jpg",
     "url": "./games/puzzle/index.html"
   },
   {
     "title": {
-      "en": "The Numbers",
+      "en": "The Number Game",
       "zh": "數字風波"
     },
     "image": "solar_radiation_storm.jpg",
