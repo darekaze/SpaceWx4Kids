@@ -35,14 +35,14 @@ export default {
     "magnetosphere": "Earth's Magnetosphere",
     "geomagnetic-storm": "Geomagnetic Storm",
     "ionosphere": "Ionosphere",
-    "radiation-belt": "Radiation Belt",
+    "radiation-belt": "Radiation Belts",
     "radio-blackouts": "Radio Blackouts",
     "solar-radiation-storms": "Solar Radiation Storm"
   },
   "zh": {
     "aurora": "極光",
     "solar-wind": "太陽風",
-    "sunspots": "太陽黑子/太陽周期",
+    "sunspots": "太陽黑子/太陽週期",
     "solar-flare": "太陽耀斑",
     "cme": "日冕物質拋射",
     "magnetosphere": "地球磁層",

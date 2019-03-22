@@ -42,7 +42,7 @@ export default {
     "navigation-system": "導航及定位系統",
     "communication": "通訊",
     "aviation": "航空",
-    "human-space-exploration-and-satellite": "人類太空探索和人造衞星"
+    "human-space-exploration-and-satellite": "人類太空探索和人造衛星"
   }
 }
 </i18n>
