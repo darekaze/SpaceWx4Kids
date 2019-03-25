@@ -9,16 +9,16 @@
   },
   {
     "title": {
-      "en": "Image Guess",
-      "zh": "猜猜圖像"
+      "en": "Image Guess<br>(PC only)",
+      "zh": "猜猜圖像<br>（僅支援桌面版）"
     },
     "image": "radio_blackout.jpg",
     "url": "./games/spelling/index.html"
   },
   {
     "title": {
-      "en": "Let's Puzzle!<br>(PC only)",
-      "zh": "齊來拼圖！<br>（僅支援桌面版）"
+      "en": "Let's Puzzle!",
+      "zh": "齊來拼圖！"
     },
     "image": "phenomena/ionosphere.jpg",
     "url": "./games/puzzle/index.html"
