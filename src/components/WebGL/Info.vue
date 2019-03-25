@@ -46,7 +46,7 @@ export default {
     "about": "Both PC and mobile are supported (PC is recommended)<br>WebGL is required, check how to enable WebGL"
   },
   "zh": {
-    "about": "支援PC和移動平臺 (推薦使用桌面瀏覽器遊玩)<br>需啓用WebGL，瀏覽如何啓用WebGL"
+    "about": "支援PC和移動平台 (推薦使用桌面瀏覽器遊玩)<br>需啓用WebGL，瀏覽如何啓用WebGL"
   }
 }
 </i18n>

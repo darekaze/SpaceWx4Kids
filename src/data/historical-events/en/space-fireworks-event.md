@@ -3,7 +3,7 @@
 An unusual and transient fireworks event on the Sun's surface was recorded by the Solar Dynamics Observatory (SDO) of the US National Aeronautics and Space Administration (NASA) on 7 June 2011.  It was an eruption on the solar surface after the flash of a solar flare.
 
 ![2011](./static/ballistic_splash.jpg)
-*Video of the eruption showing dark blobs of plasma falling ballistically toward the surface of the Sun.  (Source: Courtesy of NASA)*
+*Picture of the eruption showing dark blobs of plasma falling ballistically toward the surface of the Sun.  (Source: Courtesy of NASA)*
 
 A shock wave originating from the blast site of the solar flare was also detected. It was like a solar tsunami propagating more than halfway across the Sun.
 

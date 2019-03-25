@@ -14,9 +14,9 @@
         <div class="fill-height gradient-effect">
           <v-container fluid fill-height>
             <v-layout fill-height align-end justify-center>
-              <span class="headline white--text text-xs-center">
-                {{ info.title[lang] }}
-              </span>
+              <span
+                class="headline white--text text-xs-center"
+                v-html="info.title[lang]"/>
             </v-layout>
           </v-container>
         </div>

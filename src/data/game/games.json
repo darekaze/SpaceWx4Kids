@@ -17,8 +17,8 @@
   },
   {
     "title": {
-      "en": "Let's Puzzle!",
-      "zh": "齊來拼圖！"
+      "en": "Let's Puzzle!<br>(PC only)",
+      "zh": "齊來拼圖！<br>（僅支援桌面版）"
     },
     "image": "phenomena/ionosphere.jpg",
     "url": "./games/puzzle/index.html"
