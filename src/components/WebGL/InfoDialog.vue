@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 .tutorial-md {
-  &/deep/ {
+  &::v-deep {
     img {
       display: block;
       margin: 0 auto;

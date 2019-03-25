@@ -66,7 +66,7 @@ export default {
 }
 
 .article-md {
-  &/deep/ {
+  &::v-deep {
     padding: 0 2.2em;
     margin: auto;
     font: 1.3rem "Noto Sans TC", sans-serif;
@@ -247,7 +247,7 @@ export default {
 
 @media only screen and (max-device-width: 1024px) {
   .article-md {
-    &/deep/ {
+    &::v-deep {
       font-size: 1.1rem;
       line-height: 1.44;
       img + em, iframe + p em {
@@ -262,7 +262,7 @@ export default {
 
 @media only screen and (max-device-width: 600px) {
   .article-md {
-    &/deep/ {
+    &::v-deep {
       width: auto;
       padding: 0 10px;
 

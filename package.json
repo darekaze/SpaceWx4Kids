@@ -37,7 +37,7 @@
     "markdown-it-ins": "^2.0.0",
     "markdown-it-link-attributes": "^2.1.0",
     "markdown-it-sup": "^1.0.0",
-    "node-sass": "^4.11.0",
+    "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
