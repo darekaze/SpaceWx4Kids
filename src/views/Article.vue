@@ -76,7 +76,7 @@ export default {
     img {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 90%;
       height: auto;
       border-radius: 4px;
     }
@@ -91,14 +91,14 @@ export default {
     iframe {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 95%;
       height: 400px;
     }
 
     video {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 95%;
     }
 
     table {
@@ -199,7 +199,7 @@ export default {
       hyphens:auto;
     }
     strong {
-      color: #6A1B9A;
+      color: rgb(45, 15, 129);
     }
     ul {
       list-style: square;
