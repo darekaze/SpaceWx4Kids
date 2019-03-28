@@ -77,7 +77,7 @@
         "url": "http://rwcc.bao.ac.cn"
       },
       {
-        "name": "太空環境預報中心 *",
+        "name": "美國高達德太空飛行中心 *",
         "url": "https://sunearthday.gsfc.nasa.gov/swac"
       },
       {
