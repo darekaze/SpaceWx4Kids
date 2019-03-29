@@ -48,7 +48,7 @@ export default {
     },
   },
   watch: {
-    '$route.params.lang': {
+    '$route.path': {
       immediate: true,
       handler() {
         this.updateArticle();

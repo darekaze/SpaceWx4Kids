@@ -12,4 +12,4 @@ Space weather is not necessarily a bad thing.  It can also create some beautiful
 ![0306_aurora_2](./static/0306_aurora_2.png)
 *(Source: NASA)*
 
-We have the best chance to view aurora at high latitude of about 60 and 75 degrees, for example in northern Europe and Canada. When geomagnetic storms occur, the region of aurora expands toward the equator and it may even be seen in lower latitudes!
+We have the best chance to view aurora at high latitude of about 60 and 75 degrees, for example in northern Europe and Canada. When <a href="#/en/phenomena/geomagnetic-storms">geomagnetic storms</a> occur, the region of aurora expands toward the equator and it may even be seen in lower latitudes!
