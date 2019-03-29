@@ -82,7 +82,7 @@ export default {
       },
       "R2": {
         "scale": "2",
-        "definition": "X-ray peak flux = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M2 flare)",
+        "definition": "X-ray peak flux = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M5 flare)",
         "intensity": "Moderate"
       },
       "R1": {
@@ -92,7 +92,7 @@ export default {
       },
       "No Scale": {
         "scale": "0",
-        "definition": "X-ray peak flux &lt; 1 x 10-5 Wm<sup>-2</sup>",
+        "definition": "X-ray peak flux &lt; 1 x 10<sup>-5</sup> Wm<sup>-2</sup>",
         "intensity": "-"
       }
     },
@@ -182,7 +182,7 @@ export default {
       },
       "R2": {
         "scale": "2",
-        "definition": "X射線最高流量 = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M2級耀班)",
+        "definition": "X射線最高流量 = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M5級耀班)",
         "intensity": "中等"
       },
       "R1": {
@@ -192,7 +192,7 @@ export default {
       },
       "無級別": {
         "scale": "0",
-        "definition": "X射線最高流量 &lt; 1 x 10-5 Wm<sup>-2</sup>",
+        "definition": "X射線最高流量 &lt; 1 x 10<sup>-5</sup> Wm<sup>-2</sup>",
         "intensity": "-"
       }
     },
