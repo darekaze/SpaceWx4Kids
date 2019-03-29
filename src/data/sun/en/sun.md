@@ -15,7 +15,7 @@ The Sun is a star at the centre of the Solar System. It drives the circulation o
 | Chemical Composition      | Hydrogen(~71%), Helium(~27%), Heavy elements(~2%) (by mass) |
 | Age                       | ~ 4.5 - 4.6 billion years                                |
 
-![0306_sun](./static/h-alpha-image)
+![0306_sun](./static/h-alpha-image.jpg)
 *Solar Hα image (Credit : National Satellite Meteorological Center)*
 
 ## Corona
@@ -42,7 +42,7 @@ Space weather originates from the Sun. It generally refers to all solar activiti
 
 ## How do the Sun produce space weather?
 
-To understand space weather, we first have to know what is happening in the Sun.  There are various phenomena in the Sun which are closely related to space weather.  [Let us first find out what phenomena does our Sun bring - Phenomena](#/en/phenomena/)
+To understand space weather, we first have to know what is happening in the Sun.  There are various phenomena in the Sun which are closely related to space weather.  <a href="#/en/phenomena/">Let us first find out what phenomena does our Sun bring - Phenomena</a>
 
 ---
 
