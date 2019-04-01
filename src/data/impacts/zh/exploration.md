@@ -2,7 +2,7 @@
 
 ![0313_exploration](./static/0319_new.png)
 
-<a href="#/zh/phenomena/coronal-mass-ejections"日冕物質拋射</a>釋放大量高能粒子至太空中，對太空人的健康構成危害，尤其是當他們在機艙外工作時。此外，太陽釋放出來的帶電荷粒子可能影響太空船上的設備。
+<a href="#/zh/phenomena/coronal-mass-ejections">日冕物質拋射</a>釋放大量高能粒子至太空中，對太空人的健康構成危害，尤其是當他們在機艙外工作時。此外，太陽釋放出來的帶電荷粒子可能影響太空船上的設備。
 
 |||
 |--|--|
