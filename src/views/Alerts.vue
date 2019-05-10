@@ -120,21 +120,21 @@ export default {
     "alertsInfo": {
       "G": {
         "name": "地磁暴",
-        "description": "強烈的太陽風扭曲地球磁場。由於電磁感應產生瞬間電流猛烈波動，能損毀變壓器、電子儀器和導航設備。",
+        "description": "強烈的太陽風扭曲地球磁場。由於電磁感應可產生瞬間電流猛烈波動，能損毀變壓器、電子儀器和導航設備。",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
         "link": "geomagnetic-storms"
       },
       "S": {
         "name": "太陽輻射風暴",
-        "description": "高能粒子和等離子流對太空人、極地航班的乘客和機組人員造成威脅。",
+        "description": "高能粒子和等離子流對太空人、極地航班的乘客和機組人員構成威脅。",
         "image": "solar_radiation_storm.jpg",
         "code": "S",
         "link": "solar-radiation-storms"
       },
       "R": {
         "name": "無線電通訊中斷",
-        "description": "強烈X射線的電離作用擾亂地球的電離層，產生訊號閃爍（意即噪音、畸變失真和衰減），干擾無線電通訊。",
+        "description": "強烈X射線的電離作用擾亂地球的電離層，產生訊號閃爍（意即噪音、失真和衰減），干擾無線電通訊。",
         "image": "radio_blackout.jpg",
         "code": "R",
         "link": "radio-blackouts"

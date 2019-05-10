@@ -26,10 +26,10 @@
 <i18n>
 {
   "en": {
-    "china-src": "3-day Space Weather Forecast by National Satellite Meteorological Center"
+    "china-src": "3-day Forecast by National Center for Space Weather"
   },
   "zh": {
-    "china-src": "國家衛星氣象中心未來三天太空天氣預報"
+    "china-src": "國家空間天氣監測預警中心未來三天預報"
   }
 }
 </i18n>
